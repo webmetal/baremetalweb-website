@@ -1,0 +1,27 @@
+radio-menu {
+    --item-width: 100px;
+    display: block;
+    height: var(--head-height);
+    position: relative;
+}
+
+radio-menu [role="radio"] {
+    display: inline-flex;
+    width: var(--item-width);
+    height: var(--head-height);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+radio-menu .marker {
+    display: block;
+    height: 0.2rem;
+    width: var(--item-width);
+    background: var(--cl-focus);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    will-change: transform;
+    transition: transform 0.2s ease-out;
+}

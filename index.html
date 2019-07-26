@@ -2,16 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
+
+    <meta name="Description" content="Author: Johan Rabie, Category: Web UI training">
+    <link rel="canonical" href="https://127.0.0.1:8000"/>
     <title>Bare Metal Web</title>
 
     <style>
         html {
             --cl-back-b: #202124;
             --cl-back-c: white;
+            --cl-focus: #69abff;
             --head-height: 70px;
         }
 
@@ -37,16 +40,27 @@
             background: var(--cl-back-b);
             color: var(--cl-back-c);
             box-shadow: 0 2px 4px rgba(0,0,0,.5);
+            display: flex;
+            user-select: none;
         }
 
         header h1 {
-            line-height: var(--head-height);
-            font-size: 1.5rem;
-            margin: 0;
+            display: none;
         }
 
-        header h1, footer {
+        @media only screen and (min-width: 600px) {
+            header h1 {
+                display: block;
+                line-height: var(--head-height);
+                font-size: 1.5rem;
+                margin: 0 1rem;
+                flex: 1;
+            }
+        }
+
+        footer {
             text-align: center;
+            padding: 1rem;
         }
 
     </style>
@@ -54,10 +68,15 @@
 <body>
     <header>
         <h1>Bare Metal Web</h1>
+        <radio-menu></radio-menu>
     </header>
     <main role="main"></main>
     <footer>
         @copyright baremetalweb 2019
     </footer>
+
+    <script type="module">
+        import "./webcomponents/radio-menu/radio-menu.js";
+    </script>
 </body>
 </html>
