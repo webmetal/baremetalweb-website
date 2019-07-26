@@ -4,22 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
-    <title>Baremetal Web</title>
+    <title>Bare Metal Web</title>
 
     <style>
+        html {
+            --cl-back-b: #202124;
+            --cl-back-c: white;
+            --head-height: 70px;
+        }
+
         html, body {
+            font-family: 'Open Sans', sans-serif;
             font-size: 16px;
             width: 100%;
             height: 100%;
             overflow: hidden;
-            background: red;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            color: var(--cl-back-b);
         }
+
+        main {
+            flex: 1;
+        }
+
+        header {
+            height: var(--head-height);
+            background: var(--cl-back-b);
+            color: var(--cl-back-c);
+            box-shadow: 0 2px 4px rgba(0,0,0,.5);
+        }
+
+        header h1 {
+            line-height: var(--head-height);
+            font-size: 1.5rem;
+            margin: 0;
+        }
+
+        header h1, footer {
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
-    <header></header>
+    <header>
+        <h1>Bare Metal Web</h1>
+    </header>
     <main role="main"></main>
-    <footer></footer>
+    <footer>
+        @copyright baremetalweb 2019
+    </footer>
 </body>
 </html>
