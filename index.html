@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./styles/styles.css">
 
-    <meta name="Description" content="Author: Johan Rabie, Category: Web UI training">
+    <meta name="description"
+          content="Dealing with modern web client development.
+                   Websites and web applications need to be fast, accessible and scalable.
+                   We look at how we can accomplish this with low risk and high reward architecture and design. Author: Johan Rabie, Category: Web UI training">
+
     <link rel="canonical" href="https://127.0.0.1:8000"/>
     <title>Bare Metal Web</title>
 
@@ -70,13 +74,18 @@
         <h1>Bare Metal Web</h1>
         <radio-menu></radio-menu>
     </header>
-    <main role="main"></main>
+
+    <main role="main">
+        <view-loader view="home"></view-loader>
+    </main>
+
     <footer>
         @copyright baremetalweb 2019
     </footer>
 
     <script type="module">
-        import "./webcomponents/radio-menu/radio-menu.js";
+        import "./src/radio-menu/radio-menu.js";
+        import "./src/view-loader/view-loader.js";
     </script>
 </body>
 </html>

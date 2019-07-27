@@ -17,6 +17,8 @@ class RadioMenu extends HTMLElement {
         loadTemplate(this, import.meta.url);
         this.setAttribute("role", "radiogroup");
         this.addEventListener("click", this.clickHandler = this.click.bind(this));
+
+        location.replace("#home");
     }
 
     disconnectedCallback() {
@@ -25,13 +27,12 @@ class RadioMenu extends HTMLElement {
     }
 
     click(event) {
-        const dx = event.target.dataset.dx;
-        const page = event.target.dataset.page;
+        location.replace(`#${event.target.dataset.page}`);
 
         let width = getComputedStyle(this).getPropertyValue('--item-width');
         width = Number(width.substr(0, width.length -2));
 
-        this.marker.style.transform = `translateX(${width * dx}px)`;
+        this.marker.style.transform = `translateX(${width * event.target.dataset.dx}px)`;
     }
 }
 
