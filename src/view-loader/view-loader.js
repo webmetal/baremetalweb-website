@@ -12,11 +12,18 @@ class ViewLoader extends HTMLElement {
         this._viewModel = newValue;
     }
 
-    disconnectedCallback() {
-        this.viewModel = null;
+    async connectedCallback() {
+        onhashchange = this._load.bind(this);
+        await this._load();
     }
 
-    async _load(name) {
+    disconnectedCallback() {
+        this.viewModel = null;
+        onhashchange = null;
+    }
+
+    async _load() {
+        const name = location.hash.split("#").join("");
         const jsFile = `/app/${name}/${name}.js`;
         const htmlFile = `/app/${name}/${name}.html`;
 
@@ -28,7 +35,7 @@ class ViewLoader extends HTMLElement {
 
     async _loadView(file) {
         const html = await fetch(file).then(result => result.text());
-        this.innerHTML = html;
+        requestAnimationFrame(() => this.innerHTML = html);
     }
 
     async _loadViewModel(file) {
