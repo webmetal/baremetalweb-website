@@ -1,4 +1,4 @@
-import {BindingProviderFactory} from "./binding-providers.js";
+import {parseElement} from "./binding-dom-parser.js";
 
 class BindingManager {
     constructor() {
@@ -21,6 +21,8 @@ class BindingManager {
 
     async unbind(viewModel, cleanFn) {
         const providers = this.list.get(viewModel);
+        if (providers == null) return;
+
         this.list.delete(viewModel);
         cleanFn();
 
@@ -31,19 +33,6 @@ class BindingManager {
 
     _add(provider) {
         this.binding.push(provider);
-    }
-}
-
-async function parseElement(element, callback) {
-    for (let child of element.children) {
-        await parseElement(child, callback);
-    }
-
-    const attributes = Array.from(element.attributes).filter(item => item.name.indexOf(".bind") != -1 || item.name.indexOf(".delegate") != -1);
-    for (let attr of attributes) {
-        const fn = attr.name.split(".")[1];
-        const provider = BindingProviderFactory[fn]();
-        callback(provider);
     }
 }
 
