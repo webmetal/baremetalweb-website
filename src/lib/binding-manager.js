@@ -14,7 +14,7 @@ class BindingManager {
 
     async bind(viewModel, view) {
         this.binding = this.list.get(viewModel) || [];
-        await parseElement(view, this._addHandler);
+        await parseElement(view, viewModel, this._addHandler);
         this.list.set(viewModel, this.binding);
         delete this.binding;
     }
