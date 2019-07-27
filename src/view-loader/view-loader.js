@@ -5,8 +5,10 @@ class ViewLoader extends HTMLElement {
 
     set viewModel(newValue) {
         if (this._viewModel != null) {
-            this._viewModel.disconnectedCallback();
-            this._viewModel = null;
+            binding.unbind(this.viewModel, () => {
+                this._viewModel.disconnectedCallback();
+                this._viewModel = null;
+            });
         }
 
         this._viewModel = newValue;
@@ -28,14 +30,24 @@ class ViewLoader extends HTMLElement {
         const htmlFile = `/app/${name}/${name}.html`;
 
         return Promise.all([
-            this._loadViewModel(jsFile),
-            this._loadView(htmlFile)
-        ])
+            await this._loadViewModel(jsFile),
+            await this._loadView(htmlFile)
+        ]).then(() => {
+            const timeout = setTimeout(() => {
+                clearTimeout(timeout);
+                binding.bind(this.viewModel, this);
+            })
+        });
     }
 
     async _loadView(file) {
-        const html = await fetch(file).then(result => result.text());
-        requestAnimationFrame(() => this.innerHTML = html);
+        return new Promise(async resolve => {
+            const html = await fetch(file).then(result => result.text());
+            requestAnimationFrame(() => {
+                this.innerHTML = html;
+                resolve();
+            });
+        })
     }
 
     async _loadViewModel(file) {

@@ -1,0 +1,10 @@
+article {
+    width: 100%;
+    max-width: 1024px;
+    margin:auto;
+}
+
+article h1 {
+    text-align: center;
+    border-bottom: var(--cl-back-b) solid 1px;
+}
