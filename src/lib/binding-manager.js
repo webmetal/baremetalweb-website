@@ -2,28 +2,28 @@ import {parseElement} from "./binding-dom-parser.js";
 
 class BindingManager {
     constructor() {
-        this.list = new Map();
+        this._items = new Map();
         this._addHandler = this._add.bind(this);
     }
 
     dispose() {
-        this.list.clear();
-        this.list = null;
+        this._items.clear();
+        this._items = null;
         this._addHandler = null;
     }
 
     async bind(viewModel, view) {
-        this.binding = this.list.get(viewModel) || [];
+        this.binding = this._items.get(viewModel) || [];
         await parseElement(view, viewModel, this._addHandler);
-        this.list.set(viewModel, this.binding);
+        this._items.set(viewModel, this.binding);
         delete this.binding;
     }
 
     async unbind(viewModel, cleanFn) {
-        const providers = this.list.get(viewModel);
+        const providers = this._items.get(viewModel);
         if (providers == null) return;
 
-        this.list.delete(viewModel);
+        this._items.delete(viewModel);
         cleanFn();
 
         for (let provider of providers) {

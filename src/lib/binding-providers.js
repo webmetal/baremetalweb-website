@@ -29,5 +29,20 @@ class BindProvider extends BaseProvider {
 }
 
 class DelegateProvider extends BaseProvider {
+    constructor(element, attribute, context, property) {
+        super(element, attribute, context, property);
 
+        if (context[property] == null) {
+            throw new Error(`function "${property}" does not exist`);
+        }
+
+        this.fnH = context[property].bind(context);
+        this.element.addEventListener(this.attribute, this.fnH);
+    }
+
+    dispose() {
+        this.element.removeEventListener(this.attribute, this.fnH);
+        this.fnH = null;
+        super.dispose();
+    }
 }
