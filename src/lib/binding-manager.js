@@ -21,14 +21,15 @@ class BindingManager {
 
     async unbind(viewModel, cleanFn) {
         const providers = this._items.get(viewModel);
-        if (providers == null) return;
+        if (providers == null) return cleanFn();
 
         this._items.delete(viewModel);
-        cleanFn();
 
         for (let provider of providers) {
             provider.dispose();
         }
+
+        cleanFn();
     }
 
     _add(provider) {

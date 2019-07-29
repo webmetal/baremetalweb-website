@@ -2,15 +2,16 @@ export function enableEvents(obj) {
     if (obj.on != null) return;
 
     obj._events = new Map();
-    obj.on = on.bind(obj);
-    obj.notifyPropertyChanged = notifyPropertyChanged.bind(obj);
+    obj.on = on;
+    obj.notifyPropertyChanged = notifyPropertyChanged;
 }
 
 export function disableEvents(obj) {
-    obj.on = null;
-    obj.notifyPropertyChanged = null;
     obj._events.clear();
-    obj._events = null;
+
+    delete obj.on;
+    delete obj.notifyPropertyChanged;
+    delete obj._events;
 }
 
 function on(event, callback) {

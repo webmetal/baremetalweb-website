@@ -28,7 +28,6 @@ class BindProvider extends BaseProvider {
     constructor(element, attribute, context, property) {
         super(element, attribute, context, property);
         this.propertyChangedHandler = this._propertyChanged.bind(this);
-
         context.on(attribute, this.propertyChangedHandler);
     }
 
@@ -38,8 +37,7 @@ class BindProvider extends BaseProvider {
     }
 
     _propertyChanged(name, newValue) {
-        console.log(name);
-        console.log(newValue);
+        this.element.setAttribute(this.attribute, newValue);
     }
 }
 
