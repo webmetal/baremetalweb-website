@@ -27,8 +27,9 @@ class BaseProvider {
 class BindProvider extends BaseProvider {
     constructor(element, attribute, context, property) {
         super(element, attribute, context, property);
-        //this.propertyChangedHandler = this._propertyChanged.bind(this);
-        //context.on(property, this.propertyChangedHandler);
+        this.propertyChangedHandler = this._propertyChanged.bind(this);
+
+        context.on(attribute, this.propertyChangedHandler);
     }
 
     dispose() {
@@ -36,7 +37,7 @@ class BindProvider extends BaseProvider {
         super.dispose();
     }
 
-    _propertyChanged(name, oldValue, newValue) {
+    _propertyChanged(name, newValue) {
         console.log(name);
         console.log(newValue);
     }
