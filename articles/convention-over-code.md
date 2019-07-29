@@ -65,4 +65,5 @@ Less code means:
 1. Faster execution times in large collections
 1. More maintainable
 1. Less to test
-1. Better scalability
+
+Well defined conventions just makes sense.
