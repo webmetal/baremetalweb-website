@@ -1,5 +1,5 @@
 radio-menu {
-    --item-width: 100px;
+    --item-width: 70px;
     display: block;
     height: var(--head-height);
     position: relative;
