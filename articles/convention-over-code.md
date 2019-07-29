@@ -14,6 +14,8 @@ Conventions can include:
 
 1. File structures
 1. Naming conventions of files, classes, functions, properties...
+1. Design patterns
+1. Object availability
 
 ## Example
 Let us use a example to demonstrate this principle.

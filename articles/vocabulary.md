@@ -22,6 +22,7 @@
 1. Dataset
 1. Datasource
 1. Store
+1. Separation of concern
 
 ## Prelude
 For the purpose of this text we will assume you are working with object instances in sone shape or form.  
@@ -132,3 +133,11 @@ There are many types of stores and store strategies.
 Stores contain and manage data on a temporary basis.
 They may or may not persist the data for the long term using something like indexDB.
 The type of data contained in a store is limitless.
+
+## Separation of concern
+This is a important pattern to get under the knee.  
+Simply stated it means that a object of function is scoped to a single concern or task.  
+This is something new developers struggle with a lot where they try and make an class or function do more than it should.
+
+From an object perspective it would mean, "I do one thing and I do it well".
+Separation of concern promotes modularity witch in turn means reuse. 
