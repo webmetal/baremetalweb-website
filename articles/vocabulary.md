@@ -12,6 +12,16 @@
 1. Schema
 1. Resolver
 1. Event aggregation
+1. Intent
+1. Action
+1. Renderer
+1. Transpiler
+1. View
+1. ViewModel
+1. Model
+1. Dataset
+1. Datasource
+1. Store
 
 ## Prelude
 For the purpose of this text we will assume you are working with object instances in sone shape or form.  
@@ -69,3 +79,56 @@ Mixins are classes or functions that add additional features to any target objec
 It is not always possible to use standard polymorphasism as you can't extend multiple classes.
 Mixins are also not required at instanciation. You can extend functional capability using mixins when ever you need it.
 This is often useful to manage memory, only adding mixins when and only if you need it.
+
+## Schema
+Schema is a definition document. 
+Schemas can define user interfaces but also user intent and actions.
+Schemas allow runtime changes and user configuration.
+
+## Resolver
+A resolver determines what view parts to instantiates depending on what the URL and URL parts were. 
+View parts would include, views, controllers and view-models.
+
+## Transpiler
+Transpilers translate between languages and expressions.
+You may need the ability to expose expression functionality to the user but not use a traditional language such as javascript.
+The transpiler allows you to translate between what the user typed in and a sanitised executable.
+
+## View
+The view is the part you see.
+This very much depends on the technology you use but on the web this normally refers to the HTML you see.
+
+## ViewModel
+The view model is the code part of a view.
+All your delegate logic and interaction with the view happens here. 
+
+## Model
+The model is the part that contains the data.
+This is most often a class or object literal and may or may not contain feature functions.
+
+## Dataset
+By definition a dataset is a collection of data.
+This may be a collection of records or a single record's structure.
+Datasets can also be composite, a structure containing other structures.
+Consider the following:
+
+```js
+const person = {
+    details: {
+        firstName,
+        last,
+        age,
+    },
+    phoneNumbers: [],
+    addresses: [] 
+}
+```
+
+## Datasource
+A datasource is your connection to the server used to fetch data.
+
+## Store
+There are many types of stores and store strategies.
+Stores contain and manage data on a temporary basis.
+They may or may not persist the data for the long term using something like indexDB.
+The type of data contained in a store is limitless.
