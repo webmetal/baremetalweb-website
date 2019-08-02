@@ -3,6 +3,7 @@ import {parseElement} from "./binding-dom-parser.js";
 class BindingManager {
     constructor() {
         this._items = new Map();
+        this.binding = [];
         this._addHandler = this._add.bind(this);
     }
 
