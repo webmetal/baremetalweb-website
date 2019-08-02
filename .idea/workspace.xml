@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="686b1fa5-a3f7-4d4b-8594-9d00e6085551" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/articles/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/articles/articles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/articles/articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/articles/articles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/binding-providers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding-providers.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -48,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib/binding-manager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="363">
+              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -57,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lib/binding-providers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="499">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
             </state>
           </provider>
         </entry>
@@ -250,7 +248,7 @@
       <workItem from="1564590087749" duration="2991000" />
       <workItem from="1564599767609" duration="623000" />
       <workItem from="1564670286178" duration="599000" />
-      <workItem from="1564747196993" duration="2032000" />
+      <workItem from="1564747196993" duration="2507000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1564148647738</created>
@@ -413,11 +411,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564747218249</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="binding documentation">
+      <created>1564749957864</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1564749957864</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69428000" />
+    <option name="totallyTimeSpent" value="69903000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,7 +437,7 @@
     <frame x="494" y="0" width="1433" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19068101" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19068101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -442,10 +447,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.28993437" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.28993437" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="TypeScript" order="9" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21881838" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.21881838" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -719,15 +724,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/binding-manager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="363">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/binding-providers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="499">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>

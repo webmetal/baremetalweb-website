@@ -69,12 +69,25 @@ class DelegateProvider extends BaseProvider {
 
     _executeDelegate(event) {
         const callback = this.context[this.property];
+        const attributes = this.attributes.length == 0 ? [] : this._processAttributes(event);
+        callback.call(this.context, ...attributes);
+    }
 
-        const eventIndex = this.attributes.indexOf("$event");
-        if (eventIndex != -1) {
-            this.attributes[eventIndex] = event;
+    _processAttributes(event) {
+        const result = [];
+        for (let i = 0; i < this.attributes.length; i++) {
+            result[i] = this._getAttributeValue(this.attributes[i], event);
         }
+        return result;
+    }
 
-        callback.call(this.context, ...this.attributes);
+    _getAttributeValue(value, event) {
+        if (value == "$event") return event;
+        if (value.indexOf("${") != -1) return this._getValueOnPath(value);
+        return value;
+    }
+
+    _getValueOnPath(path) {
+
     }
 }
