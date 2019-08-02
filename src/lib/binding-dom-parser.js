@@ -11,7 +11,7 @@ export async function parseElement(element, context, callback) {
         const attr = parts[0];
         const providerName = parts[1];
         const property = attribute.value;
-        const provider = BindingProviderFactory[providerName](element, attr, context, property);
+        const provider = await BindingProviderFactory[providerName](element, attr, context, property);
         callback(provider);
     }
 }
