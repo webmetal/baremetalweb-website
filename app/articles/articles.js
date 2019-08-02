@@ -1,23 +1,21 @@
 import {ViewBase} from "./../view-base.js";
 
 export default class Articles extends ViewBase {
-    constructor() {
-        super();
-        this.data = {
-            firstName: "Johan Rabie",
-            action(...args) {
-                console.log(this);
-            }
-        }
+    get articles() {
+        return this.getProperty("articles", () => []);
     }
 
-    selected(event, number) {
-        console.log(event);
-        console.log(number);
+    set articles(newValue) {
+        this.setProperty("articles", newValue);
     }
 
-    performClick(...args) {
-        console.log(this);
-        console.log(args);
+    connectedCallback() {
+        super.connectedCallback();
+        this.notifyPropertyChanged("articles");
+    }
+
+    loaded() {
+        console.log("loaded");
+        this.notifyPropertyChanged("items", "test");
     }
 }
