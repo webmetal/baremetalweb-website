@@ -9,7 +9,7 @@
             </ol>
         </p>
 
-        <input value="model.property.trim().length > -1">
-        <button click.delegate="parse">Parse</button>
+        <input value="(model.property.trim().length > -1) && (model.property2 == 10 || model.property2 == 12)">
+        <button click.delegate="parse($event)">Parse</button>
     </section>
 </article>

@@ -8,9 +8,8 @@ export default class Articles extends ViewBase {
         }
     }
 
-    selected(event, code, number) {
+    selected(event, number) {
         console.log(event);
-        console.log(code);
         console.log(number);
     }
 }

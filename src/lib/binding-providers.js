@@ -8,6 +8,10 @@ export class BindingProviderFactory {
     static delegate(element, attribute, context, property) {
         return new DelegateProvider(element, attribute, context, property);
     }
+
+    static condition(element, attribute, context, property) {
+
+    }
 }
 
 class BaseProvider {
@@ -84,11 +88,12 @@ class DelegateProvider extends BaseProvider {
 
     async _getAttributeValue(value, event) {
         if (value == "$event") return event;
-        if (value.indexOf(".") != -1) return await this._getValueOnPath(value);
+        if (value.indexOf("${") != -1) return await this._getValueOnPath(value);
         return value;
     }
 
     async _getValueOnPath(path) {
-        return await getValueOnPath(this.context, path);
+        const p = path.split("${").join("").split("}").join("");
+        return await getValueOnPath(this.context, p);
     }
 }

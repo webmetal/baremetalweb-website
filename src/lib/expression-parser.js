@@ -5,7 +5,11 @@ export function getProperties(expression) {
     const parts = expression.split(" ");
     const properties = [];
     for (const part of parts) {
-        parsePart(part, (prop) => properties.push(prop));
+        parsePart(part, (prop) => {
+            if (properties.indexOf(prop) == -1) {
+                properties.push(prop)
+            }
+        });
     }
 
     if (properties.length == 0) {
@@ -16,10 +20,14 @@ export function getProperties(expression) {
 }
 
 function parsePart(part, propertyCallback) {
-    let cleanup = part.split("${").join("").split("}").join("");
-
     if (reserved.indexOf(part) != -1) return;
-    if (RegExp('^-?[0-9]\d*(\.\d+)?$').test(cleanup)) return;
+
+    let cleanup = part;
+    for (let token of ["${", "}", "(", ")"]) {
+        cleanup = cleanup.split(token).join("");
+    }
+
+    if (!Number.isNaN(Number.parseInt(cleanup))) return;
 
     for(let fn of stringFn) {
         const index = cleanup.indexOf(fn);
