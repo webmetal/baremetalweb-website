@@ -27,7 +27,7 @@ function parsePart(part, propertyCallback) {
         cleanup = cleanup.split(token).join("");
     }
 
-    if (!Number.isNaN(Number.parseInt(cleanup))) return;
+    if (isValue(cleanup) == true) return;
 
     for(let fn of stringFn) {
         const index = cleanup.indexOf(fn);
@@ -39,4 +39,10 @@ function parsePart(part, propertyCallback) {
     }
 
     propertyCallback(cleanup);
+}
+
+function isValue(value) {
+    if (!Number.isNaN(Number.parseInt(value))) return true;
+    if (RegExp(/'|"/).test(value) == true) return true;
+    return false;
 }
