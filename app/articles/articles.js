@@ -6,7 +6,7 @@ export default class Articles extends ViewBase {
         this.data = {
             firstName: "Johan Rabie",
             action(...args) {
-                console.table(args);
+                console.log(this);
             }
         }
     }
@@ -17,6 +17,7 @@ export default class Articles extends ViewBase {
     }
 
     performClick(...args) {
+        console.log(this);
         console.log(args);
     }
 }

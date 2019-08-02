@@ -29,14 +29,14 @@ export class DelegateProvider extends BaseProvider {
     }
 
     async _executeDelegate(event) {
-        const callback = await getValueOnPath(this.context, this.property);
+        const callback = await getValueOnPath(this.context, this.property, true);
 
-        if (callback == null) {
+        if (callback.value == null) {
             throw new Error(`function "${this.property}" does not exist on context`);
         }
 
         const attributes = this.attributes == null ? [] : this.attributes.length == 0 ? [] : await this._processAttributes(event);
-        callback.call(this.context, ...attributes);
+        callback.value.call(callback.parent || this.context, ...attributes);
     }
 
     async _processAttributes(event) {
