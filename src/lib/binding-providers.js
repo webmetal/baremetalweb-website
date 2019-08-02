@@ -65,16 +65,23 @@ class DelegateProvider extends BaseProvider {
     _processProperty() {
         if (this.property.indexOf("(") == -1) return;
         const fromIndex = this.property.indexOf("(") + 1;
-        const toIndex = this.property.indexOf(")");
 
-        const attributes = this.property.substring(fromIndex, toIndex);
-        this.attributes = attributes.split(" ").join("").split(",");
-        this.property = this.property.substring(0, fromIndex - 1);
+        if (fromIndex != -1) {
+            const toIndex = this.property.indexOf(")");
+            const attributes = this.property.substring(fromIndex, toIndex);
+            this.attributes = attributes.split(" ").join("").split(",");
+            this.property = this.property.substring(0, fromIndex - 1);
+        }
     }
 
     async _executeDelegate(event) {
-        const callback = this.context[this.property];
-        const attributes = this.attributes.length == 0 ? [] : await this._processAttributes(event);
+        const callback = await getValueOnPath(this.context, this.property);
+
+        if (callback == null) {
+            throw new Error(`function "${this.property}" does not exist on context`);
+        }
+
+        const attributes = this.attributes == null ? [] : this.attributes.length == 0 ? [] : await this._processAttributes(event);
         callback.call(this.context, ...attributes);
     }
 
@@ -88,8 +95,16 @@ class DelegateProvider extends BaseProvider {
 
     async _getAttributeValue(value, event) {
         if (value == "$event") return event;
+        if (value == "$this") return this.element;
         if (value.indexOf("${") != -1) return await this._getValueOnPath(value);
-        return value;
+
+        const int = Number.parseInt(value);
+        if (!isNaN(int)) return int;
+
+        const float = Number.parseFloat(value);
+        if (!isNaN(float)) return float;
+
+        return value.split('"').join("").split("'").join("");
     }
 
     async _getValueOnPath(path) {

@@ -1,4 +1,11 @@
 <div>
+    <button click.delegate="performClick">Click</button>
+    <button click.delegate="performClick(${data})">Data</button>
+    <button click.delegate="performClick($event, ${data})">Event and Data</button>
+    <button click.delegate="performClick($this, ${data})">Element and Data</button> <!-- this = this element -->
+    <button click.delegate="data.action(5)">Number 5</button>
+    <button click.delegate="data.action('hello world')">String Hello World</button>
+
     <h1>Articles</h1>
     <aside>
         <ul role="menu" items.bind="articles" click.delegate="selected($event, ${data})">
@@ -6,4 +13,9 @@
             <li>Test2</li>
         </ul>
     </aside>
+
+
+    <div click.delegate="doSomething($this)">
+        <span>Test</span>
+    </div>
 </div>
