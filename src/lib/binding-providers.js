@@ -1,3 +1,5 @@
+import {getValueOnPath} from "./object-utils.js";
+
 export class BindingProviderFactory {
     static bind(element, attribute, context, property) {
         return new BindProvider(element, attribute, context, property);
@@ -64,30 +66,29 @@ class DelegateProvider extends BaseProvider {
         const attributes = this.property.substring(fromIndex, toIndex);
         this.attributes = attributes.split(" ").join("").split(",");
         this.property = this.property.substring(0, fromIndex - 1);
-        console.log(this.attributes);
     }
 
-    _executeDelegate(event) {
+    async _executeDelegate(event) {
         const callback = this.context[this.property];
-        const attributes = this.attributes.length == 0 ? [] : this._processAttributes(event);
+        const attributes = this.attributes.length == 0 ? [] : await this._processAttributes(event);
         callback.call(this.context, ...attributes);
     }
 
-    _processAttributes(event) {
+    async _processAttributes(event) {
         const result = [];
         for (let i = 0; i < this.attributes.length; i++) {
-            result[i] = this._getAttributeValue(this.attributes[i], event);
+            result[i] = await this._getAttributeValue(this.attributes[i], event);
         }
         return result;
     }
 
-    _getAttributeValue(value, event) {
+    async _getAttributeValue(value, event) {
         if (value == "$event") return event;
-        if (value.indexOf("${") != -1) return this._getValueOnPath(value);
+        if (value.indexOf(".") != -1) return await this._getValueOnPath(value);
         return value;
     }
 
-    _getValueOnPath(path) {
-
+    async _getValueOnPath(path) {
+        return await getValueOnPath(this.context, path);
     }
 }
