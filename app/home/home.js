@@ -1,5 +1,5 @@
 import {ViewBase} from "./../view-base.js";
-import {getProperties} from "./../../src/lib/expression-parser.js";
+import {getProperties} from "../../src/lib/binding/expression-parser.js";
 
 export default class Home extends ViewBase {
     parse() {

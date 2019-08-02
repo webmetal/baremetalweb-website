@@ -34,6 +34,10 @@ class BindingManager {
     }
 
     _add(provider) {
+        if (this.binding == null) {
+            this.binding = [];
+        }
+
         this.binding.push(provider);
     }
 }

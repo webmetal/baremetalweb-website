@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="686b1fa5-a3f7-4d4b-8594-9d00e6085551" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/providers/base-provider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/providers/binding-provider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/providers/delegate-provider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/binding-dom-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding-dom-parser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/binding-providers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding-providers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/binding-dom-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/binding-manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/binding-manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/binding-providers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/binding-providers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/expression-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/expression-parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/object-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/object-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/providers/base-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/providers/base-provider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/providers/binding-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/providers/binding-provider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/providers/delegate-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/providers/delegate-provider.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,28 +26,64 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/binding-providers.js">
+        <entry file="file://$PROJECT_DIR$/src/lib/binding/binding-manager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="438">
+              <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/binding-dom-parser.js">
+        <entry file="file://$PROJECT_DIR$/src/lib/binding/expression-parser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="102">
+              <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/load-template.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="43" lean-forward="true" selection-start-column="37" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/binding/object-utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/src/lib/idleCallback.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+            <state relative-caret-position="306">
+              <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/articles/articles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/articles/articles.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -96,7 +136,6 @@
         <option value="$PROJECT_DIR$/articles/factory-pattern.md" />
         <option value="$PROJECT_DIR$/app/view-base.js" />
         <option value="$PROJECT_DIR$/src/view-loader/view-loader.js" />
-        <option value="$PROJECT_DIR$/src/lib/binding-manager.js" />
         <option value="$PROJECT_DIR$/src/mixins/event-mixin.js" />
         <option value="$PROJECT_DIR$/articles/binding/binding-expressions.md" />
         <option value="$PROJECT_DIR$/app/home/home.html" />
@@ -104,13 +143,15 @@
         <option value="$PROJECT_DIR$/app/home/home.js" />
         <option value="$PROJECT_DIR$/src/lib/object-utils.js" />
         <option value="$PROJECT_DIR$/app/articles/articles.js" />
-        <option value="$PROJECT_DIR$/app/articles/articles.html" />
         <option value="$PROJECT_DIR$/src/lib/providers/base-provider.js" />
         <option value="$PROJECT_DIR$/src/lib/providers/delegate-provider.js" />
         <option value="$PROJECT_DIR$/src/lib/providers/binding-provider.js" />
         <option value="$PROJECT_DIR$/src/lib/binding-providers.js" />
         <option value="$PROJECT_DIR$/src/lib/binding-dom-parser.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/lib/binding-manager.js" />
+        <option value="$PROJECT_DIR$/app/articles/articles.html" />
+        <option value="$PROJECT_DIR$/src/lib/binding/binding-manager.js" />
       </list>
     </option>
   </component>
@@ -132,6 +173,28 @@
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -147,16 +210,17 @@
     <property name="ts.external.directory.path" value="C:\Users\Johan\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\183.5912.23\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\baremetalweb\src\lib\binding" />
+      <recent name="D:\projects\baremetalweb\articles\practices" />
+      <recent name="D:\projects\baremetalweb\articles" />
+      <recent name="D:\projects\baremetalweb" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\projects\baremetalweb\app\tools" />
       <recent name="D:\projects\baremetalweb\app\articles" />
       <recent name="D:\projects\baremetalweb" />
       <recent name="D:\projects\baremetalweb\styles\font" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\projects\baremetalweb\articles\practices" />
-      <recent name="D:\projects\baremetalweb\articles" />
-      <recent name="D:\projects\baremetalweb" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -217,7 +281,7 @@
       <workItem from="1564590087749" duration="2991000" />
       <workItem from="1564599767609" duration="623000" />
       <workItem from="1564670286178" duration="599000" />
-      <workItem from="1564747196993" duration="8783000" />
+      <workItem from="1564747196993" duration="9290000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1564148647738</created>
@@ -415,11 +479,25 @@
       <option name="project" value="LOCAL" />
       <updated>1564756454959</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="extend binding examples">
+      <created>1564756814177</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1564756814177</updated>
+    </task>
+    <task id="LOCAL-00030" summary="extend binding examples">
+      <created>1564757103884</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1564757103885</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76179000" />
+    <option name="totallyTimeSpent" value="76686000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -438,13 +516,13 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.31838074" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31838074" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.17724289" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.17724289" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="TypeScript" order="9" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.21881838" />
@@ -491,7 +569,8 @@
     <MESSAGE value="expression parser for properties" />
     <MESSAGE value="binding documentation" />
     <MESSAGE value="updated delegate functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated delegate functionality" />
+    <MESSAGE value="extend binding examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="extend binding examples" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/@material/animation/types.d.ts" />
@@ -618,20 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/idleCallback.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/load-template.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" lean-forward="true" selection-start-column="37" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/articles/practices/convention-over-code.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -666,20 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/binding-manager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/expression-parser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -697,42 +748,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/articles/articles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/object-utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/articles/articles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/providers/base-provider.js">
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/base-provider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/providers/binding-provider.js">
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/binding-provider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/providers/delegate-provider.js">
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/delegate-provider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
@@ -742,24 +772,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/binding-providers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/binding-dom-parser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        <state relative-caret-position="340">
+          <caret line="20" column="78" lean-forward="true" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/binding-providers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/articles/articles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/articles/articles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/binding-manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/expression-parser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/load-template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" lean-forward="true" selection-start-column="37" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/object-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/idleCallback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
