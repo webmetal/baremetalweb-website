@@ -22,3 +22,14 @@ export async function getValueOnPath(obj, path, includeParent = false) {
         value: result
     };
 }
+
+/**
+ * If a property path is defined as a attribute get the value on the defined path so we can pass it back as a parameter
+ * @param path {string}: property path
+ * @returns {Promise<object>}
+ * @private
+ */
+export async function getExpValueOnPath(context, path) {
+    const p = path.split("${").join("").split("}").join("");
+    return await getValueOnPath(context, p);
+}

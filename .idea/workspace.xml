@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="686b1fa5-a3f7-4d4b-8594-9d00e6085551" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib/binding/providers/delegate-helper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/binding/object-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/object-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/binding/providers/delegate-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/providers/delegate-provider.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,28 +19,31 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/binding-provider.js">
+        <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/delegate-provider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/base-provider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            <state relative-caret-position="469">
+              <caret line="33" column="78" selection-start-line="33" selection-start-column="78" selection-end-line="33" selection-end-column="78" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js">
+        <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/delegate-helper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="214">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/binding/object-utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="45" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -58,8 +63,12 @@
       <find>reserved</find>
       <find>parsePart</find>
       <find>_executeDelegate</find>
-      <find>_processProperty</find>
       <find>attributes</find>
+      <find>_processProperty</find>
+      <find>getAttributeValue</find>
+      <find>this.</find>
+      <find>getExpValueOnPath</find>
+      <find>processAttributes</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,10 +119,11 @@
         <option value="$PROJECT_DIR$/src/lib/binding/binding-manager.js" />
         <option value="$PROJECT_DIR$/articles/binding/delegate-examples.md" />
         <option value="$PROJECT_DIR$/app/articles/articles.js" />
-        <option value="$PROJECT_DIR$/src/lib/binding/object-utils.js" />
         <option value="$PROJECT_DIR$/src/lib/binding/providers/base-provider.js" />
-        <option value="$PROJECT_DIR$/src/lib/binding/providers/delegate-provider.js" />
         <option value="$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js" />
+        <option value="$PROJECT_DIR$/src/lib/binding/object-utils.js" />
+        <option value="$PROJECT_DIR$/src/lib/binding/providers/delegate-provider.js" />
+        <option value="$PROJECT_DIR$/src/lib/binding/providers/delegate-helper.js" />
       </list>
     </option>
   </component>
@@ -269,7 +279,7 @@
       <workItem from="1564590087749" duration="2991000" />
       <workItem from="1564599767609" duration="623000" />
       <workItem from="1564670286178" duration="599000" />
-      <workItem from="1564747196993" duration="11617000" />
+      <workItem from="1564747196993" duration="12726000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1564148647738</created>
@@ -509,11 +519,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564759498679</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="updated comments">
+      <created>1564759635071</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1564759635071</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79013000" />
+    <option name="totallyTimeSpent" value="80122000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -587,10 +604,10 @@
     <MESSAGE value="updated delegate functionality" />
     <MESSAGE value="extend binding examples" />
     <MESSAGE value="fixed the this operator on delegates on paths" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed the this operator on delegates on paths" />
+    <MESSAGE value="updated comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated comments" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/@material/animation/index.js" />
     <entry file="file://$PROJECT_DIR$/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/index.js" />
     <entry file="file://$PROJECT_DIR$/_build/templates/component/component.js" />
@@ -830,27 +847,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/binding/object-utils.js">
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="54" lean-forward="true" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/delegate-provider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="93" column="33" lean-forward="true" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/binding-provider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -861,10 +861,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js">
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/binding-provider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/object-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/delegate-provider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="33" column="78" selection-start-line="33" selection-start-column="78" selection-end-line="33" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/delegate-helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
