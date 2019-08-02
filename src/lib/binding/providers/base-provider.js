@@ -1,3 +1,6 @@
+/**
+ * This is the base class for binding providers
+ */
 export class BaseProvider {
     constructor(element, attribute, context, property) {
         this.element = element;
