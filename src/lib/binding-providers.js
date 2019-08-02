@@ -45,17 +45,36 @@ class DelegateProvider extends BaseProvider {
     constructor(element, attribute, context, property) {
         super(element, attribute, context, property);
 
-        if (context[property] == null) {
-            throw new Error(`function "${property}" does not exist`);
-        }
-
-        this.fnH = context[property].bind(context);
-        this.element.addEventListener(this.attribute, this.fnH);
+        this._processProperty();
+        this._executeDelegateHandler = this._executeDelegate.bind(this);
+        this.element.addEventListener(this.attribute, this._executeDelegateHandler);
     }
 
     dispose() {
-        this.element.removeEventListener(this.attribute, this.fnH);
-        this.fnH = null;
+        this.element.removeEventListener(this.attribute, this._executeDelegateHandler);
+        this._executeDelegateHandler = null;
         super.dispose();
+    }
+
+    _processProperty() {
+        if (this.property.indexOf("(") == -1) return;
+        const fromIndex = this.property.indexOf("(") + 1;
+        const toIndex = this.property.indexOf(")");
+
+        const attributes = this.property.substring(fromIndex, toIndex);
+        this.attributes = attributes.split(" ").join("").split(",");
+        this.property = this.property.substring(0, fromIndex - 1);
+        console.log(this.attributes);
+    }
+
+    _executeDelegate(event) {
+        const callback = this.context[this.property];
+
+        const eventIndex = this.attributes.indexOf("$event");
+        if (eventIndex != -1) {
+            this.attributes[eventIndex] = event;
+        }
+
+        callback.call(this.context, ...this.attributes);
     }
 }

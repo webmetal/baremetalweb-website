@@ -1,7 +1,7 @@
 <div>
     <h1>Articles</h1>
     <aside>
-        <ul role="menu" items.bind="articles" click.delegate="selected">
+        <ul role="menu" items.bind="articles" click.delegate="selected($event, a, 1)">
             <li>Test1</li>
             <li>Test2</li>
         </ul>
