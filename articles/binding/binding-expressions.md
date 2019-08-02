@@ -5,7 +5,7 @@ There are a number of binding expressions we will use:
 1. inflate - copy the data values into the ui target once, no updates
 1. bind - trigger based updated when values change
 1. delegate - execute a function on the defined path
-1. conditional - set attribute, class and style values based on data conditions
+1. condition - set attribute, class and style values based on data conditions
 
 The bind and inflate operations are often used on an attribute.
 
