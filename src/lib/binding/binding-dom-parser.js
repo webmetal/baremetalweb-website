@@ -1,5 +1,13 @@
 import {BindingProviderFactory} from "./binding-providers.js";
 
+/**
+ * Parse a element and it's children recursively.
+ * Use the BindingProviderFactory to create providers are required to deal with binding expressions
+ * @param element {HTMLElement}: Element to process
+ * @param context {Object}: The binding context
+ * @param callback {Function}: Function to call when a new provider has been created
+ * @returns {Promise<void>}
+ */
 export async function parseElement(element, context, callback) {
     for (let child of element.children) {
         await parseElement(child, context, callback);

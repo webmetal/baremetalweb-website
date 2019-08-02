@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="686b1fa5-a3f7-4d4b-8594-9d00e6085551" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/binding/providers/base-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/providers/base-provider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/binding/providers/delegate-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/providers/delegate-provider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,14 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/delegate-provider.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/binding-provider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="93" column="33" lean-forward="true" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/base-provider.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -45,6 +59,7 @@
       <find>parsePart</find>
       <find>_executeDelegate</find>
       <find>_processProperty</find>
+      <find>attributes</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -98,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/lib/binding/object-utils.js" />
         <option value="$PROJECT_DIR$/src/lib/binding/providers/base-provider.js" />
         <option value="$PROJECT_DIR$/src/lib/binding/providers/delegate-provider.js" />
+        <option value="$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js" />
       </list>
     </option>
   </component>
@@ -253,7 +269,7 @@
       <workItem from="1564590087749" duration="2991000" />
       <workItem from="1564599767609" duration="623000" />
       <workItem from="1564670286178" duration="599000" />
-      <workItem from="1564747196993" duration="11483000" />
+      <workItem from="1564747196993" duration="11617000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1564148647738</created>
@@ -486,11 +502,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564758887638</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="fixed the this operator on delegates on paths">
+      <created>1564759498679</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1564759498679</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78879000" />
+    <option name="totallyTimeSpent" value="79013000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -731,24 +754,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/binding-provider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="78" lean-forward="true" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -828,6 +837,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/delegate-provider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" column="33" lean-forward="true" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/binding-provider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/base-provider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -835,13 +861,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/delegate-provider.js">
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="93" column="33" lean-forward="true" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
