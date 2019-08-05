@@ -1,4 +1,4 @@
-import {BindingProviderFactory} from "./binding-providers.js";
+import {BindingProviderFactory} from "./binding-providers-factory.js";
 
 /**
  * Parse a element and it's children recursively.
