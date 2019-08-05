@@ -38,4 +38,7 @@ Here are a couple of useful terms that you should know and use during graphics p
 
 ### Other
 
+1. Pre-process
+1. Post-process
+1. Render
 1. Collider (Collider shapes, circle / rect)
