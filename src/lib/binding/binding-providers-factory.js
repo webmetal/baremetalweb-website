@@ -10,6 +10,6 @@ export class BindingProviderFactory {
     }
 
     static async condition(element, attribute, context, property) {
-
+        console.log("to be implemented");
     }
 }
