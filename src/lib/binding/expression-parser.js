@@ -19,6 +19,15 @@ export function getProperties(expression) {
     return properties;
 }
 
+export function contextualize(expression) {
+    let exp = expression;
+    const properties = getProperties(expression);
+    for (let property of properties) {
+        exp = exp.split(property).join(`context.${property}`);
+    }
+    return exp;
+}
+
 function parsePart(part, propertyCallback) {
     if (reserved.indexOf(part) != -1) return;
 

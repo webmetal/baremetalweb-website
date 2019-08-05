@@ -15,10 +15,6 @@
         </p>
 
         <input value="(model.property.trim().length > -1) && (model.property2 == 10 || model.property2 == 12)">
-        <button click.delegate="parse($event)">Parse</button>
+        <button click.delegate="contextualize($event)">Contextualizes</button>
     </section>
 </article>
-
-<div click.delegate="doSomething($event, $this, 'a', ${data.name}, 5)">
-    <span>Do Something</span>
-</div>
