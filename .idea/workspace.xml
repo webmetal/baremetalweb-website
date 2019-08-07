@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="686b1fa5-a3f7-4d4b-8594-9d00e6085551" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles/practices/graphics-terms.md" beforeDir="false" afterPath="$PROJECT_DIR$/articles/practices/graphics-terms.md" afterDir="false" />
-    </list>
+    <list default="true" id="686b1fa5-a3f7-4d4b-8594-9d00e6085551" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -47,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/articles/practices/graphics-terms.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="383">
-                <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+              <first_editor relative-caret-position="612">
+                <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -139,7 +136,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="495" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -293,7 +290,7 @@
       <workItem from="1564747196993" duration="17177000" />
       <workItem from="1564992490344" duration="1669000" />
       <workItem from="1564994876327" duration="6895000" />
-      <workItem from="1565194726003" duration="1408000" />
+      <workItem from="1565194726003" duration="2228000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1564148647738</created>
@@ -596,11 +593,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565002947487</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="added comments">
+      <created>1565196367296</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1565196367296</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94545000" />
+    <option name="totallyTimeSpent" value="95365000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -612,8 +616,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -977,8 +980,8 @@
     <entry file="file://$PROJECT_DIR$/articles/practices/graphics-terms.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="383">
-            <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <first_editor relative-caret-position="612">
+            <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
