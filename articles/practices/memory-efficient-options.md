@@ -79,3 +79,9 @@ function doSomething(args) {
 
 You can read more about it on:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators
+
+## Common usage
+
+You may be in a situation where you have a number of boolean values as parameters or properties.
+To make this more efficient you can instead have one bitmask.
+This makes the length of code needed less and still allow a great deal of flexibility.
