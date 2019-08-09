@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="686b1fa5-a3f7-4d4b-8594-9d00e6085551" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/templates/templates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/component/component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/component/component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/templates/templates.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/templates/templates.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lib/templates/templates.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+            <state relative-caret-position="17">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -303,7 +299,7 @@
       <workItem from="1565213694265" duration="113000" />
       <workItem from="1565293961217" duration="35000" />
       <workItem from="1565294505355" duration="1501000" />
-      <workItem from="1565339055516" duration="5129000" />
+      <workItem from="1565339055516" duration="5493000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1564148647738</created>
@@ -620,11 +616,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565211726628</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="template inflation">
+      <created>1565344220177</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1565344220177</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103926000" />
+    <option name="totallyTimeSpent" value="104290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -639,7 +642,7 @@
     <frame x="680" y="0" width="1247" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22084367" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22084367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -649,10 +652,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.19146608" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.19146608" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="TypeScript" order="9" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20787746" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.20787746" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -707,7 +710,8 @@
     <MESSAGE value="added contextualizes function for expression parsing" />
     <MESSAGE value="added comments" />
     <MESSAGE value="updated flow diagram svg" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated flow diagram svg" />
+    <MESSAGE value="template inflation" />
+    <option name="LAST_COMMIT_MESSAGE" value="template inflation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/127.0.0.1_2019-07-26_22-05-25.report.html" />
@@ -1025,8 +1029,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/templates/templates.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        <state relative-caret-position="17">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
         </state>
       </provider>
     </entry>
