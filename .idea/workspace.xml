@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="686b1fa5-a3f7-4d4b-8594-9d00e6085551" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/styles/tools/code-gen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/views/tools.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/code-gen/code-gen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/code-gen/code-gen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tools/tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/tools/tools.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tools/tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/tools/tools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view-base.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/view-base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view-loader/view-loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view-loader/view-loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/code-gen/code-gen.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/code-gen/code-gen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/code-gen/code-gen.js" beforeDir="false" afterPath="$PROJECT_DIR$/tools/code-gen/code-gen.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,26 +20,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/code-gen/code-gen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/styles/tools/code-gen.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="153">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/tools/code-gen.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tools/code-gen/code-gen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="289">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -139,15 +133,15 @@
         <option value="$PROJECT_DIR$/templates/component/component.js" />
         <option value="$PROJECT_DIR$/src/lib/templates/templates.js" />
         <option value="$PROJECT_DIR$/articles/practices/memory-efficient-options.md" />
-        <option value="$PROJECT_DIR$/tools/code-gen/code-gen.js" />
         <option value="$PROJECT_DIR$/tools/code-gen/code-gen.css" />
         <option value="$PROJECT_DIR$/src/view-loader/view-loader.js" />
         <option value="$PROJECT_DIR$/app/view-base.js" />
         <option value="$PROJECT_DIR$/app/tools/tools.js" />
         <option value="$PROJECT_DIR$/app/tools/tools.html" />
         <option value="$PROJECT_DIR$/styles/views/tools.css" />
-        <option value="$PROJECT_DIR$/tools/code-gen/code-gen.html" />
         <option value="$PROJECT_DIR$/styles/tools/code-gen.css" />
+        <option value="$PROJECT_DIR$/tools/code-gen/code-gen.js" />
+        <option value="$PROJECT_DIR$/tools/code-gen/code-gen.html" />
       </list>
     </option>
   </component>
@@ -299,14 +293,7 @@
       <workItem from="1565294505355" duration="1501000" />
       <workItem from="1565339055516" duration="8399000" />
       <workItem from="1565349185725" duration="217000" />
-      <workItem from="1565547694118" duration="3145000" />
-    </task>
-    <task id="LOCAL-00001" summary="initial">
-      <created>1564148647738</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1564148647738</updated>
+      <workItem from="1565547694118" duration="3732000" />
     </task>
     <task id="LOCAL-00002" summary="initial">
       <created>1564156803579</created>
@@ -644,11 +631,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565347382127</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="add css code gen tool">
+      <created>1565550857329</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1565550857330</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110558000" />
+    <option name="totallyTimeSpent" value="111145000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -673,10 +667,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.19146608" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.19146608" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="TypeScript" order="9" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20787746" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.20787746" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -732,7 +726,8 @@
     <MESSAGE value="added comments" />
     <MESSAGE value="updated flow diagram svg" />
     <MESSAGE value="template inflation" />
-    <option name="LAST_COMMIT_MESSAGE" value="template inflation" />
+    <MESSAGE value="add css code gen tool" />
+    <option name="LAST_COMMIT_MESSAGE" value="add css code gen tool" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/127.0.0.1_2019-07-26_22-21-02.report.html" />
@@ -1025,13 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/code-gen/code-gen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mixins/event-mixin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1074,17 +1062,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/code-gen/code-gen.html">
+    <entry file="file://$PROJECT_DIR$/styles/tools/code-gen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="306">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/tools/code-gen.css">
+    <entry file="file://$PROJECT_DIR$/tools/code-gen/code-gen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="153">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/code-gen/code-gen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>

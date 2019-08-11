@@ -6,6 +6,10 @@ class CodeGen extends HTMLElement {
     disconnectedCallback() {
         this.innerHTML = null;
     }
+
+    generate() {
+        console.log("test");
+    }
 }
 
 customElements.define("code-gen", CodeGen);
