@@ -1,0 +1,24 @@
+code-gen {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+code-gen .toolbar {
+    display: grid;
+    grid-template-columns: 1fr 70px;
+    margin-bottom: 1rem;
+}
+
+code-gen textarea {
+    width: 100%;
+}
+
+code-gen #name {
+    width: 100%;
+    grid-column: 1;
+}
+
+code-gen #btnGenerate {
+    grid-column: 2;
+}

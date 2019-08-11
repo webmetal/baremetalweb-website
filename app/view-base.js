@@ -7,5 +7,6 @@ export class ViewBase {
 
     disconnectedCallback() {
         disableEvents(this);
+        this.view = null;
     }
 }

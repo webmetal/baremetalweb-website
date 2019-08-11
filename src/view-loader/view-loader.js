@@ -36,6 +36,7 @@ class ViewLoader extends HTMLElement {
             const timeout = setTimeout(async () => {
                 clearTimeout(timeout);
                 await binding.bind(this.viewModel, this);
+                this.viewModel.view = this;
                 this.viewModel.loaded && this.viewModel.loaded();
             })
         });
