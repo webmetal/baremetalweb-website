@@ -11,6 +11,9 @@ export default class Tools extends ViewBase {
 
     handleMenuClick(event) {
         const tool = event.target.dataset.tool;
+
+        if (tool == "home") return this.toolsWindow.innerHTML = "";
+
         this.toolsWindow.innerHTML = "<code-gen></code-gen>";
         import(`./../../tools/${tool}/${tool}.js`);
     }

@@ -1,10 +1,13 @@
 class CodeGen extends HTMLElement {
     async connectedCallback() {
         this.innerHTML = await fetch(import.meta.url.replace(".js", ".html")).then(result => result.text());
+        await binding.bind(this, this);
     }
 
     disconnectedCallback() {
-        this.innerHTML = null;
+        binding.unbind(this, () => {
+            this.innerHTML = null;
+        });
     }
 
     generate() {
