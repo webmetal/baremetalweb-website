@@ -16,13 +16,4 @@ export default class Home extends ViewBase {
         const exp = contextualize(value);
         input.value = exp;
     }
-
-    async doSomething() {
-        const result = await getTemplates("component", "component", tp.js | tp.html, {
-            __component__: "my-component",
-            __class__: "MyComponent"
-        });
-        console.log(result[tp.js]);
-        console.log(result[tp.html]);
-    }
 }

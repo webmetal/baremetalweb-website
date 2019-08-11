@@ -43,4 +43,5 @@ function setProperty(prop, newValue) {
     }
 
     this[field] = newValue;
+    this.notifyPropertyChanged(prop, newValue);
 }

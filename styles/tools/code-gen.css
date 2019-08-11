@@ -12,6 +12,8 @@ code-gen .toolbar {
 
 code-gen textarea {
     width: 100%;
+    height: 300px;
+    white-space: nowrap;
 }
 
 code-gen #name {
