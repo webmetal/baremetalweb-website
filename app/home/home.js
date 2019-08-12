@@ -5,7 +5,7 @@ export default class Home extends ViewBase {
     constructor() {
         super();
         this.data = {
-            name: "Christine",
+            name: "Pooky",
             lastName: "Rabie"
         };
     }
@@ -25,12 +25,18 @@ export default class Home extends ViewBase {
                 this.data.name = i;
                 i += 1;
 
-                if (i < 100) fn();
+                if (i < 100)
+                {
+                    fn()
+                }
+                else {
+                    this.data.name = "Johan";
+                    clearTimeout(interval);
+                }
             }, 1);
         };
 
         fn();
-        //this.data.name = "Johan";
     }
 
     loaded() {
