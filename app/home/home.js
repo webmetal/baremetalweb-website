@@ -16,4 +16,8 @@ export default class Home extends ViewBase {
         const exp = contextualize(value);
         input.value = exp;
     }
+
+    doSomething() {
+        this.data.name = "Johan Rabie";
+    }
 }

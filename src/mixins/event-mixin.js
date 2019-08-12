@@ -1,11 +1,15 @@
 export function enableEvents(obj) {
+    enableNotifications(obj);
+    obj.getProperty = getProperty;
+    obj.setProperty = setProperty;
+}
+
+export function enableNotifications(obj) {
     if (obj.on != null) return;
 
     obj._events = new Map();
     obj.on = on;
     obj.notifyPropertyChanged = notifyPropertyChanged;
-    obj.getProperty = getProperty;
-    obj.setProperty = setProperty;
 }
 
 export function disableEvents(obj) {
