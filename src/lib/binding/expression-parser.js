@@ -38,6 +38,9 @@ export function contextualize(expression) {
     for (let property of properties) {
         exp = exp.split(property).join(`context.${property}`);
     }
+
+    exp = exp.split("context.context.").join("context.");
+
     return exp;
 }
 
