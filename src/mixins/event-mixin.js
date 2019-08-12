@@ -23,12 +23,17 @@ export function disableEvents(obj) {
 }
 
 function on(event, callback) {
-    this._events.set(event, callback);
+    if (!this._events.has(event)) {
+        this._events.set(event, [callback]);
+    }
+    else {
+        this._events.get(event).push(callback);
+    }
 }
 
 function notifyPropertyChanged(name, newValue) {
     const callback = this._events.get(name);
-    callback && callback(name, newValue);
+    callback && callback.forEach(fn => fn(name, newValue));
 }
 
 function getProperty(prop, callback) {
