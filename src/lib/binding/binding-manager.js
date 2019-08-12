@@ -33,6 +33,20 @@ class BindingManager {
         cleanFn();
     }
 
+    async refresh(viewModel) {
+        if (viewModel._events == null) return;
+
+        const keys = viewModel._events.keys();
+        for(let key of keys) {
+            if (viewModel[key]._events != null) {
+                await this.refresh(viewModel[key]);
+            }
+            else {
+                viewModel.notifyPropertyChanged(key, viewModel[key]);
+            }
+        }
+    }
+
     _add(provider) {
         if (this.binding == null) {
             this.binding = [];

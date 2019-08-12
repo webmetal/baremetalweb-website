@@ -15,7 +15,6 @@ export default class Articles extends ViewBase {
     }
 
     loaded() {
-        console.log("loaded");
         this.notifyPropertyChanged("items", "test");
     }
 }

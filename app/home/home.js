@@ -1,6 +1,5 @@
 import {ViewBase} from "./../view-base.js";
 import {contextualize} from "../../src/lib/binding/expression-parser.js";
-import {getTemplates, tp} from "./../../src/lib/templates/templates.js";
 
 export default class Home extends ViewBase {
     constructor() {
@@ -19,5 +18,9 @@ export default class Home extends ViewBase {
 
     doSomething() {
         this.data.name = "Johan Rabie";
+    }
+
+    loaded() {
+        binding.refresh(this).catch(error => console.error(error));
     }
 }
