@@ -1,3 +1,4 @@
+@import "./normalize.css";
 @import "./typo.css";
 @import "./articles.css";
 @import "./components/view-loader.css";

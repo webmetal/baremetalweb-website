@@ -18,7 +18,9 @@ class RadioMenu extends HTMLElement {
         this.setAttribute("role", "radiogroup");
         this.addEventListener("click", this.clickHandler = this.click.bind(this));
 
-        location.replace("#home");
+        if (location.hash.length == 0) {
+            location.replace("#home");
+        }
     }
 
     disconnectedCallback() {
