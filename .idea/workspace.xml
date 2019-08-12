@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mixins/event-mixin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+            <state relative-caret-position="473">
+              <caret line="89" column="28" lean-forward="true" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -263,14 +263,7 @@
       <workItem from="1565349185725" duration="217000" />
       <workItem from="1565547694118" duration="7086000" />
       <workItem from="1565554795893" duration="3000" />
-      <workItem from="1565622125298" duration="9584000" />
-    </task>
-    <task id="LOCAL-00010" summary="initial">
-      <created>1564236924253</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1564236924253</updated>
+      <workItem from="1565622125298" duration="9967000" />
     </task>
     <task id="LOCAL-00011" summary="initial">
       <created>1564238354660</created>
@@ -608,11 +601,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565638136522</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="added multi function for expressions support">
+      <created>1565638422222</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1565638422222</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124086000" />
+    <option name="totallyTimeSpent" value="124469000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -675,7 +675,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="initial" />
     <MESSAGE value="click event added" />
     <MESSAGE value="add idle callback polifill" />
     <MESSAGE value="convention over code" />
@@ -700,7 +699,8 @@
     <MESSAGE value="fixed context expression" />
     <MESSAGE value="binding on path" />
     <MESSAGE value="parse expressions" />
-    <option name="LAST_COMMIT_MESSAGE" value="parse expressions" />
+    <MESSAGE value="added multi function for expressions support" />
+    <option name="LAST_COMMIT_MESSAGE" value="added multi function for expressions support" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/images/favicon.ico" />
@@ -1075,8 +1075,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mixins/event-mixin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        <state relative-caret-position="473">
+          <caret line="89" column="28" lean-forward="true" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
         </state>
       </provider>
     </entry>
