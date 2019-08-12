@@ -6,7 +6,9 @@ export class ViewBase {
     }
 
     disconnectedCallback() {
-        disableEvents(this);
-        this.view = null;
+        binding.unbind(this, () => {
+            disableEvents(this);
+            this.view = null;
+        });
     }
 }
