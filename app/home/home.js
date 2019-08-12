@@ -18,7 +18,19 @@ export default class Home extends ViewBase {
     }
 
     doSomething() {
-        this.data.name = "Johan";
+        let i = 0;
+
+        const fn = () => {
+            const interval = setTimeout(() => {
+                this.data.name = i;
+                i += 1;
+
+                if (i < 100) fn();
+            }, 1);
+        };
+
+        fn();
+        //this.data.name = "Johan";
     }
 
     loaded() {

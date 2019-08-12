@@ -24,7 +24,7 @@ export class BindProvider extends BaseProvider {
     }
 
     _propertyChanged(name, newValue) {
-        this.element[this.attribute] = newValue;
+        Promise.resolve().then(() => this.element[this.attribute] = newValue).catch(error => console.error(error));
     }
 
     _valueChanged(event) {
