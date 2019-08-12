@@ -12,4 +12,9 @@ export class BindingProviderFactory {
     static async condition(element, attribute, context, property) {
         console.log("to be implemented");
     }
+
+    static async expression(element, context) {
+        const module = await import("./providers/expression-provider.js");
+        return new module.ExpressionProvider(element, context);
+    }
 }

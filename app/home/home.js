@@ -5,7 +5,8 @@ export default class Home extends ViewBase {
     constructor() {
         super();
         this.data = {
-            name: "Hello World"
+            name: "Christine",
+            lastName: "Rabie"
         };
     }
 
@@ -17,7 +18,7 @@ export default class Home extends ViewBase {
     }
 
     doSomething() {
-        this.data.name = "Johan Rabie";
+        this.data.name = "Johan";
     }
 
     loaded() {

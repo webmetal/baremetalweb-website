@@ -17,6 +17,7 @@ export function enableBinding(obj) {
             }
         })
     }
+    return obj;
 }
 
 /**
