@@ -19,7 +19,10 @@ export async function parseElement(element, context, callback) {
         const attr = parts[0];
         const providerName = parts[1];
         const property = attribute.value;
-        const provider = await BindingProviderFactory[providerName](element, attr, context, property);
-        callback(provider);
+        callback(await BindingProviderFactory[providerName](element, attr, context, property));
+    }
+
+    if (element.children.length == 0 && element.innerHTML.indexOf("${") != -1) {
+        callback(await BindingProviderFactory.expression(element, context));
     }
 }

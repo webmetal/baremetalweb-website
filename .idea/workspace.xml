@@ -110,70 +110,9 @@
       <workItem from="1565294505355" duration="1501000" />
       <workItem from="1565339055516" duration="8399000" />
       <workItem from="1565349185725" duration="217000" />
-      <workItem from="1565547694118" duration="6984000" />
-    </task>
-    <task id="LOCAL-00004" summary="initial">
-      <created>1564212457098</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1564212457098</updated>
-    </task>
-    <task id="LOCAL-00005" summary="initial">
-      <created>1564213127722</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1564213127722</updated>
-    </task>
-    <task id="LOCAL-00006" summary="initial">
-      <created>1564213964795</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1564213964795</updated>
-    </task>
-    <task id="LOCAL-00007" summary="initial">
-      <created>1564215609133</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1564215609133</updated>
-    </task>
-    <task id="LOCAL-00008" summary="initial">
-      <created>1564216730276</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1564216730276</updated>
-    </task>
-    <task id="LOCAL-00009" summary="initial">
-      <created>1564236478624</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1564236478624</updated>
-    </task>
-    <task id="LOCAL-00010" summary="initial">
-      <created>1564236924253</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1564236924253</updated>
-    </task>
-    <task id="LOCAL-00011" summary="initial">
-      <created>1564238354660</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1564238354660</updated>
-    </task>
-    <task id="LOCAL-00012" summary="click event added">
-      <created>1564319454931</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1564319454931</updated>
+      <workItem from="1565547694118" duration="7086000" />
+      <workItem from="1565554795893" duration="3000" />
+      <workItem from="1565622125298" duration="10889000" />
     </task>
     <task id="LOCAL-00013" summary="click event added">
       <created>1564404270280</created>
@@ -455,11 +394,74 @@
       <option name="project" value="LOCAL" />
       <updated>1565552117618</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="add css code gen tool">
+      <created>1565554771938</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1565554771938</updated>
+    </task>
+    <task id="LOCAL-00054" summary="fixed context expression">
+      <created>1565622614439</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1565622614439</updated>
+    </task>
+    <task id="LOCAL-00055" summary="binding on path">
+      <created>1565626535226</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1565626535226</updated>
+    </task>
+    <task id="LOCAL-00056" summary="binding on path">
+      <created>1565628040086</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1565628040086</updated>
+    </task>
+    <task id="LOCAL-00057" summary="binding on path">
+      <created>1565629003432</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1565629003432</updated>
+    </task>
+    <task id="LOCAL-00058" summary="parse expressions">
+      <created>1565638136522</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1565638136522</updated>
+    </task>
+    <task id="LOCAL-00059" summary="added multi function for expressions support">
+      <created>1565638422222</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1565638422222</updated>
+    </task>
+    <task id="LOCAL-00060" summary="updated comments">
+      <created>1565638823410</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1565638823410</updated>
+    </task>
+    <task id="LOCAL-00061" summary="performance test">
+      <created>1565639494586</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1565639494586</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114397000" />
+    <option name="totallyTimeSpent" value="125391000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,8 +478,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="initial" />
-    <MESSAGE value="click event added" />
     <MESSAGE value="add idle callback polifill" />
     <MESSAGE value="convention over code" />
     <MESSAGE value="update documentation" />
@@ -487,7 +487,6 @@
     <MESSAGE value="updated delegate functionality" />
     <MESSAGE value="extend binding examples" />
     <MESSAGE value="fixed the this operator on delegates on paths" />
-    <MESSAGE value="updated comments" />
     <MESSAGE value="moved delegate helper functions out of provider" />
     <MESSAGE value="update property detection" />
     <MESSAGE value="update binding and property notification" />
@@ -498,6 +497,12 @@
     <MESSAGE value="updated flow diagram svg" />
     <MESSAGE value="template inflation" />
     <MESSAGE value="add css code gen tool" />
-    <option name="LAST_COMMIT_MESSAGE" value="add css code gen tool" />
+    <MESSAGE value="fixed context expression" />
+    <MESSAGE value="binding on path" />
+    <MESSAGE value="parse expressions" />
+    <MESSAGE value="added multi function for expressions support" />
+    <MESSAGE value="updated comments" />
+    <MESSAGE value="performance test" />
+    <option name="LAST_COMMIT_MESSAGE" value="performance test" />
   </component>
 </project>

@@ -1,4 +1,5 @@
 import {BaseProvider} from "./base-provider.js";
+import {enableBindingPath} from "./binding-helper.js";
 
 export class BindProvider extends BaseProvider {
     constructor(element, attribute, context, property) {
@@ -6,7 +7,7 @@ export class BindProvider extends BaseProvider {
         this._propertyChangedHandler = this._propertyChanged.bind(this);
         this._valueChangedHandler = this._valueChanged.bind(this);
 
-        context.on(property, this._propertyChangedHandler);
+        this._bindProperty(context, property);
         element.addEventListener("change", this._valueChangedHandler);
     }
 
@@ -17,15 +18,24 @@ export class BindProvider extends BaseProvider {
         this._valueChangedHandler = null;
 
         // cleanup the context.on(attribute...
+        // cleanup biding
 
         super.dispose();
     }
 
     _propertyChanged(name, newValue) {
-        this.element[this.attribute] = newValue;
+        Promise.resolve().then(() => this.element[this.attribute] = newValue).catch(error => console.error(error));
     }
 
     _valueChanged(event) {
         this.context[this.property] = event.target.value;
+    }
+
+    _bindProperty(context, property) {
+        if (property.indexOf(".") != -1) {
+            return enableBindingPath(context, property, this._propertyChangedHandler);
+        }
+
+        context.on(property, this._propertyChangedHandler);
     }
 }
