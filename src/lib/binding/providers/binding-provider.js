@@ -24,7 +24,7 @@ export class BindProvider extends BaseProvider {
     }
 
     _propertyChanged(name, newValue) {
-        idleTaskManager.add(() => this.element[this.attribute] = newValue);
+        idleTaskManager.add(() => requestAnimationFrame(() => this.element[this.attribute] = newValue));
     }
 
     _valueChanged(event) {
