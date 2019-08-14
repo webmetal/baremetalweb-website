@@ -35,6 +35,6 @@ export class DelegateProvider extends BaseProvider {
         }
 
         const attributes = this.attributes == null ? [] : this.attributes.length == 0 ? [] : await processAttributes(event, this);
-        callback.value.call(callback.parent || this.context, ...attributes);
+        idleTaskManager.add(() => callback.value.call(callback.parent || this.context, ...attributes));
     }
 }

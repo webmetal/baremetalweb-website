@@ -24,7 +24,7 @@ export class BindProvider extends BaseProvider {
     }
 
     _propertyChanged(name, newValue) {
-        Promise.resolve().then(() => this.element[this.attribute] = newValue).catch(error => console.error(error));
+        idleTaskManager.add(() => this.element[this.attribute] = newValue);
     }
 
     _valueChanged(event) {

@@ -1,3 +1,6 @@
+import "./../idle/idleCallback.js";
+import "./../idle/idleTaskManager.js";
+
 import {parseElement} from "./binding-dom-parser.js";
 
 class BindingManager {
