@@ -37,7 +37,6 @@ Here are a couple of useful terms that you should know and use during graphics p
 1. Polygon
 1. Curve (bezier vs cubic)
 1. Mesh
-1. Curve
 1. Surface
 1. Dimension
 
@@ -53,3 +52,5 @@ Here are a couple of useful terms that you should know and use during graphics p
 1. Render
 1. Collider (Collider shapes, circle / rect)
 1. Subdivision
+1. Textures
+1. Masks

@@ -26,7 +26,7 @@ export function enableNotifications(obj) {
  * @param obj {Object}
  */
 export function disableEvents(obj) {
-    obj._events.clear();
+    obj._events && obj._events.clear();
 
     delete obj.on;
     delete obj.notifyPropertyChanged;

@@ -1,9 +1,14 @@
 import {ViewBase} from "./../view-base.js";
 import {contextualize} from "../../src/lib/binding/expression-parser.js";
+import {enableBinding} from "./../../src/lib/binding/providers/binding-helper.js";
 
 export default class Home extends ViewBase {
     constructor() {
         super();
+        
+        // this.on("data", x);
+        // this.when("click", () => )
+        
         this.data = {
             name: "Pooky",
             lastName: "Rabie"
@@ -39,7 +44,18 @@ export default class Home extends ViewBase {
         fn();
     }
 
+    update() {
+        this.data = {
+            name: "Test",
+            lastName: "Object"
+        }
+    }
+
     loaded() {
         binding.refresh(this).catch(error => console.error(error));
+    }
+
+    doLoaded(element) {
+        console.log(element);
     }
 }

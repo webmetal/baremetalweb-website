@@ -1,16 +1,10 @@
 class __class__ {
     async connectedCallback() {
-        await this._loadTemplate();
+        this.innerHTML = await fetch(import.meta.url.replace(".js", ".html")).then(result => result.text());
     }
 
     disconnectedCallback() {
 
-    }
-
-    _loadTemplate() {
-        return fetch(import.meta.url.split(".js").join(".html"))
-            .then(result => result.text())
-            .then(html => this.innerHTML = html);
     }
 }
 
