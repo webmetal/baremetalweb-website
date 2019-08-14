@@ -14,18 +14,18 @@ class IdleTaskManager {
      */
     add(fn) {
         fn && this.list.push(fn);
-
-        if (this.processing == false) {
-            this._processQueue();
-        }
+        !this.processing && this._processQueue();
     }
 
     _processQueue() {
+        this.processing = true;
         requestIdleCallback(deadline => {
             while((deadline.timeRemaining() > 0 || deadline.didTimeout) && this.list.length) {
                 let fn = this.list.shift();
                 fn();
             }
+            this.processing = false;
+            this.list.length && this._processQueue();
         }, {timeout: 1000})
     }
 }
