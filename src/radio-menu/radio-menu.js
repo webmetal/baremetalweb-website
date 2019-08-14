@@ -1,5 +1,3 @@
-import {loadTemplate} from "./../lib/load-template.js";
-
 class RadioMenu extends HTMLElement {
     get marker() {
         if (this._marker == null) {
@@ -13,8 +11,8 @@ class RadioMenu extends HTMLElement {
         this.marker = newValue;
     }
 
-    connectedCallback() {
-        loadTemplate(this, import.meta.url);
+    async connectedCallback() {
+        this.innerHTML = await fetch(import.meta.url.replace(".js", ".html")).then(result => result.text());
         this.setAttribute("role", "radiogroup");
         this.addEventListener("click", this.clickHandler = this.click.bind(this));
 
