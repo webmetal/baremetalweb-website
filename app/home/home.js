@@ -30,7 +30,7 @@ export default class Home extends ViewBase {
                 this.data.name = i;
                 i += 1;
 
-                if (i < 100)
+                if (i < 10000)
                 {
                     fn()
                 }

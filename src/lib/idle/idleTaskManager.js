@@ -17,6 +17,10 @@ class IdleTaskManager {
         !this.processing && this._processQueue();
     }
 
+    /**
+     * Loop through the required functions and execute them in turn.
+     * @private
+     */
     _processQueue() {
         this.processing = true;
         requestIdleCallback(deadline => {
@@ -25,7 +29,6 @@ class IdleTaskManager {
                 fn();
             }
             this.processing = false;
-            this.list.length && this._processQueue();
         }, {timeout: 1000})
     }
 }
