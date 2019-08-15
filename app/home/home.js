@@ -25,20 +25,16 @@ export default class Home extends ViewBase {
     doSomething() {
         let i = 0;
 
+        let handle;
         const fn = () => {
-            const interval = setTimeout(() => {
-                this.data.name = i;
-                i += 1;
+            i++;
+            this.data.name = i;
+            handle = requestAnimationFrame(fn);
 
-                if (i < 10000)
-                {
-                    fn()
-                }
-                else {
-                    this.data.name = "Johan";
-                    clearTimeout(interval);
-                }
-            }, 1);
+            if (i == 100) {
+                cancelAnimationFrame(handle);
+                this.data.name = "Johan"
+            }
         };
 
         fn();

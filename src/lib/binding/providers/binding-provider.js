@@ -23,10 +23,6 @@ export class BindProvider extends BaseProvider {
         super.dispose();
     }
 
-    _propertyChanged(name, newValue) {
-        setTimeout(()=> this.element[this.attribute] = newValue, 0);
-    }
-
     _valueChanged(event) {
         this.context[this.property] = event.target.value;
     }
@@ -38,4 +34,9 @@ export class BindProvider extends BaseProvider {
 
         context.on(property, this._propertyChangedHandler);
     }
+
+    _propertyChanged(name, newValue) {
+         Promise.resolve().then(()=> this.element[this.attribute] = newValue);
+    }
+
 }

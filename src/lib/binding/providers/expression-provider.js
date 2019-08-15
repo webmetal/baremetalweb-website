@@ -30,6 +30,6 @@ export class ExpressionProvider {
     }
 
     _triggered() {
-        setTimeout(()=> this.element.innerHTML = this.expFn(this.context), 0);
+         Promise.resolve().then(() => this.element.innerHTML = this.expFn(this.context));
     }
 }
