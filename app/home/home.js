@@ -6,9 +6,6 @@ export default class Home extends ViewBase {
     constructor() {
         super();
         
-        // this.on("data", x);
-        // this.when("click", () => )
-        
         this.data = {
             name: "Pooky",
             lastName: "Rabie"

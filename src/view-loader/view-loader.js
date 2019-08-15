@@ -1,3 +1,5 @@
+import {enableBinding} from "./../lib/binding/providers/binding-helper.js";
+
 class ViewLoader extends HTMLElement {
     get viewModel() {
         return this._viewModel;
@@ -54,7 +56,7 @@ class ViewLoader extends HTMLElement {
 
     async _loadViewModel(file) {
         const module = await import(file);
-        this.viewModel = new module.default();
+        this.viewModel = enableBinding(new module.default());
         this.viewModel.connectedCallback();
     }
 }

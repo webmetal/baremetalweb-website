@@ -1,5 +1,7 @@
 import {enableNotifications} from "./../../../mixins/event-mixin.js";
 
+const ignoreProperties = ["_notifyProperty", "_events"];
+
 /**
  * If an object is not already bound ready, enable all the features required to make it bindable.
  * @param obj {Object}: Object to bind on
@@ -9,10 +11,25 @@ export function enableBinding(obj) {
     if (obj.on == null) {
         enableNotifications(obj);
         return new Proxy(obj, {
-            get: (obj, prop) => {return obj[prop]},
+            get: (obj, prop) => {
+                if (prop == "proxy") return true;
+                return obj[prop];
+            },
             set: (obj, prop, value) => {
+                if (ignoreProperties.indexOf(prop) != -1) {
+                    obj[prop] = value;
+                    return true;
+                }
+
+                if (typeof value == "object") {
+                    value = enableBinding(value);
+                    const oldValue = obj[prop];
+                    copyEventsOver(oldValue, value);
+                    obj[prop] = value;
+                }
+
                 obj[prop] = value;
-                obj.notifyPropertyChanged(prop, value);
+                obj.notifyPropertyChanged(prop, obj[prop]);
                 return true;
             }
         })
@@ -41,4 +58,25 @@ export function enableBindingPath(context, property, callback) {
 
     const field = properties[properties.length -1];
     parent.on(field, callback);
+}
+
+function copyEventsOver(source, target) {
+    if (!source || !source._events) return;
+
+    if (source._events.size > 0) {
+        const ar = Array.from(source._events);
+        target._events = new Map(ar);
+    }
+
+    const keys = Object.keys(source);
+    for (let key of keys) {
+        if (source[key]._events != null) {
+            target[key] = target[key] == null ? enableBinding({}) : enableBinding(target[key]);
+            copyEventsOver(source[key], target[key]);
+        }
+    }
+}
+
+function cleanObject(obj) {
+    delete obj._events;
 }
