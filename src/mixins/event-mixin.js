@@ -45,7 +45,9 @@ function on(event, callback) {
         this._events.set(event, [callback]);
     }
     else {
-        this._events.get(event).push(callback);
+        const ar = this._events.get(event);
+        const fn = ar.find(item => item == callback);
+        !fn && ar.push(callback);
     }
 }
 
