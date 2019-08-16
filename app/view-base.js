@@ -1,4 +1,5 @@
 import {enableEvents, disableEvents} from "../src/mixins/event-mixin.js";
+import {clean} from "./../src/lib/binding/clean.js";
 
 export class ViewBase {
     connectedCallback() {
@@ -8,7 +9,7 @@ export class ViewBase {
     disconnectedCallback() {
         binding.unbind(this, () => {
             disableEvents(this);
-            this.view = null;
+            clean(this);
         });
     }
 }

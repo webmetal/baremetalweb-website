@@ -1,6 +1,6 @@
 import {enableEvents, disableEvents} from "./../../src/mixins/event-mixin.js";
 import {getTemplates, tp} from "./../../src/lib/templates/templates.js";
-import {disableEventsRecursive} from "./../../src/mixins/event-mixin";
+import {disableEventsRecursive} from "./../../src/mixins/event-mixin.js";
 
 class CodeGen extends HTMLElement {
     get componentName() {

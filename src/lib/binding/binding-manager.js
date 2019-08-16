@@ -33,6 +33,7 @@ class BindingManager {
 
         for (let provider of providers) {
             provider.dispose();
+            provider = null;
         }
 
         cleanFn();
