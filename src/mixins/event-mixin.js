@@ -26,6 +26,7 @@ export function enableNotifications(obj) {
  * @param obj {Object}
  */
 export function disableEvents(obj) {
+    obj.mute = true;
     obj._events && obj._events.clear();
 
     delete obj.on;
@@ -33,6 +34,20 @@ export function disableEvents(obj) {
     delete obj._events;
     delete obj.getProperty;
     delete obj.setProperty;
+}
+
+/**
+ * This is a recursive cleanup function that removes all notification and event features.
+ * @param obj
+ */
+export function disableEventsRecursive(obj) {
+    if (typeof obj != "object" || Array.isArray(obj)) return;
+    disableEvents(obj);
+
+    const children = Object.entries(obj).filter(item => item[1] && item[1].on);
+    for(let child of children) {
+        disableEventsRecursive(child[1]);
+    }
 }
 
 /**

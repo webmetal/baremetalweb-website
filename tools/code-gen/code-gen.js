@@ -1,5 +1,6 @@
 import {enableEvents, disableEvents} from "./../../src/mixins/event-mixin.js";
 import {getTemplates, tp} from "./../../src/lib/templates/templates.js";
+import {disableEventsRecursive} from "./../../src/mixins/event-mixin";
 
 class CodeGen extends HTMLElement {
     get componentName() {
@@ -41,7 +42,7 @@ class CodeGen extends HTMLElement {
     }
 
     disconnectedCallback() {
-        disableEvents(this);
+        disableEventsRecursive(this);
         binding.unbind(this, () => {
             this.innerHTML = null;
         });

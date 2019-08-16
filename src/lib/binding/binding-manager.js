@@ -29,8 +29,6 @@ class BindingManager {
         const providers = this._items.get(viewModel);
         if (providers == null) return cleanFn();
 
-        // JHR: You need to cleanup the __events of the objects bound here.
-
         this._items.delete(viewModel);
 
         for (let provider of providers) {

@@ -76,7 +76,3 @@ function copyEventsOver(source, target) {
         }
     }
 }
-
-function cleanObject(obj) {
-    delete obj._events;
-}
