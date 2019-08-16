@@ -1,6 +1,3 @@
-import {disableEventsRecursive} from "../../../mixins/event-mixin.js";
-import {clean} from "./../clean.js";
-
 /**
  * This is the base class for binding providers
  */
@@ -13,11 +10,9 @@ export class BaseProvider {
     }
 
     dispose() {
-        this.cleanRecursive(this);
-        clean(this);
-    }
-
-    cleanRecursive(obj) {
-        disableEventsRecursive(obj);
+        delete this.element;
+        delete this.attribute;
+        delete this.context;
+        delete this.property;
     }
 }
