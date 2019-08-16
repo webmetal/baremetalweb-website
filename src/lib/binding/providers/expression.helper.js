@@ -25,7 +25,7 @@ export function createBindingExpFn(exp) {
     return cache.fn;
 }
 
-export function releaseFn(collection, exp) {
+function releaseFn(collection, exp) {
     if (collection.has(exp)) {
         const cache = collection.get(exp);
         cache.count -= 1;
@@ -43,3 +43,4 @@ export function releaseExpFn(exp) {
 export function releaseBindingExpFn(exp) {
     releaseFn(bexpCollection, exp);
 }
+
