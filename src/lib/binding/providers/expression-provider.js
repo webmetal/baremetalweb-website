@@ -1,4 +1,4 @@
-import {createExpressionFn} from "./expression.helper.js";
+import {createExpFn, releaseExpFn} from "./expression.helper.js";
 import {enableBindingPath} from "./binding-helper.js";
 import {getProperties} from "./../expression-parser.js"
 
@@ -7,12 +7,14 @@ export class ExpressionProvider {
         this.element = element;
         this.context = context;
         this.expression = element.innerHTML;
-        this.expFn = createExpressionFn(this.expression);
+        this.expFn = createExpFn(this.expression);
 
         this._registerTriggers();
     }
 
     dispose() {
+        releaseExpFn(this.expression);
+
         this.element = null;
         this.context = null;
         this.expression = null;

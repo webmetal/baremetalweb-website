@@ -24,6 +24,8 @@ class BindingManager {
     }
 
     async unbind(viewModel, cleanFn) {
+        viewModel.mute = true;
+
         const providers = this._items.get(viewModel);
         if (providers == null) return cleanFn();
 

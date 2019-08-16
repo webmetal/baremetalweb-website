@@ -8,7 +8,7 @@ const ignoreProperties = ["_notifyProperty", "_events"];
  * @returns {*}
  */
 export function enableBinding(obj) {
-    if (obj.on == null) {
+    if (!obj || obj.on == null) {
         enableNotifications(obj);
         return new Proxy(obj, {
             get: (obj, prop) => {
@@ -16,7 +16,7 @@ export function enableBinding(obj) {
                 return obj[prop];
             },
             set: (obj, prop, value) => {
-                if (ignoreProperties.indexOf(prop) != -1) {
+                if (obj.mute || ignoreProperties.indexOf(prop) != -1) {
                     obj[prop] = value;
                     return true;
                 }
