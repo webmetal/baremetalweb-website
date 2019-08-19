@@ -1,54 +1,25 @@
 import {ViewBase} from "./../view-base.js";
-import {contextualize} from "../../src/lib/binding/expression-parser.js";
-import {enableBinding} from "./../../src/lib/binding/providers/binding-helper.js";
+import {Process, ProcessAction} from "./../../src/lib/process/process.js";
 
 export default class Home extends ViewBase {
-    constructor() {
-        super();
-        
-        this.data = {
-            name: "Pooky",
-            lastName: "Rabie"
-        };
-    }
-
-    contextualize() {
-        const input = document.querySelector("input");
-        const value = input.value;
-        const exp = contextualize(value);
-        input.value = exp;
-    }
-
-    doSomething() {
-        let i = 0;
-
-        let handle;
-        const fn = () => {
-            i++;
-            this.data.name = i;
-            handle = requestAnimationFrame(fn);
-
-            if (i == 100) {
-                cancelAnimationFrame(handle);
-                this.data.name = "Johan"
-            }
-        };
-
-        fn();
-    }
-
-    update() {
-        this.data = {
-            name: "Test",
-            lastName: "Object"
-        }
+    connectedCallback() {
+        super.connectedCallback();
+        this.data = {interval: 0}
     }
 
     loaded() {
         binding.refresh(this).catch(error => console.error(error));
     }
 
-    doLoaded(element) {
-        console.log(element);
+    async process() {
+        const process = new Process("Test Process", 0);
+        process.add(new ProcessAction("add", 0, 1, () => 1 + 3));
+        process.add(new ProcessAction("log result", 1, 2, (value) => {
+            console.log(`result: ${value}`);
+            this.data.interval = value;
+        }));
+        process.add(new ProcessAction("log done", 2, 3, () => {console.log("done")}));
+        await process.start();
+        process.dispose();
     }
 }
