@@ -40,6 +40,7 @@ class ViewLoader extends HTMLElement {
                 await binding.bind(this.viewModel, this);
                 this.viewModel.view = this;
                 this.viewModel.loaded && this.viewModel.loaded();
+                this.removeAttribute("aria-hidden");
             })
         });
     }
@@ -49,6 +50,7 @@ class ViewLoader extends HTMLElement {
             const html = await fetch(file).then(result => result.text());
             requestAnimationFrame(() => {
                 this.innerHTML = html;
+                this.setAttribute("aria-hidden", true);
                 resolve();
             });
         })

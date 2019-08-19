@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="686b1fa5-a3f7-4d4b-8594-9d00e6085551" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/process/process.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view-loader/view-loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view-loader/view-loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,22 +15,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/process/process.js">
+        <entry file="file://$PROJECT_DIR$/app/home/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="11" />
+            <state relative-caret-position="51">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/home/home.js">
+        <entry file="file://$PROJECT_DIR$/src/view-loader/view-loader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="383">
+              <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -62,14 +70,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/view-loader/view-loader.js" />
         <option value="$PROJECT_DIR$/src/lib/binding/providers/expression-provider.js" />
         <option value="$PROJECT_DIR$/src/lib/binding/providers/binding-provider.js" />
         <option value="$PROJECT_DIR$/src/lib/binding/providers/expression.helper.js" />
         <option value="$PROJECT_DIR$/app/articles/articles.html" />
         <option value="$PROJECT_DIR$/src/lib/binding/providers/binding-helper.js" />
         <option value="$PROJECT_DIR$/src/mixins/event-mixin.js" />
-        <option value="$PROJECT_DIR$/src/lib/binding/binding-manager.js" />
         <option value="$PROJECT_DIR$/app/view-base.js" />
         <option value="$PROJECT_DIR$/src/lib/binding/clean.js" />
         <option value="$PROJECT_DIR$/tools/code-gen/code-gen.js" />
@@ -79,12 +85,15 @@
         <option value="$PROJECT_DIR$/app/home/home.html" />
         <option value="$PROJECT_DIR$/src/lib/process/process.js" />
         <option value="$PROJECT_DIR$/app/home/home.js" />
+        <option value="$PROJECT_DIR$/styles/styles.css" />
+        <option value="$PROJECT_DIR$/src/lib/binding/binding-manager.js" />
+        <option value="$PROJECT_DIR$/src/view-loader/view-loader.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="509" />
-    <option name="width" value="1418" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="755" />
+    <option name="width" value="1172" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1PJPGG66HLbzKNAFgXzRRljtnVP" />
@@ -129,7 +138,18 @@
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="process" type="462c0819:PsiDirectoryNode" />
+              <item name="binding" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view-loader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,14 +255,7 @@
       <workItem from="1565765150150" duration="5183000" />
       <workItem from="1565936384565" duration="11453000" />
       <workItem from="1565969820862" duration="1016000" />
-      <workItem from="1566196245791" duration="18294000" />
-    </task>
-    <task id="LOCAL-00026" summary="updated delegate functionality">
-      <created>1564751788998</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1564751788998</updated>
+      <workItem from="1566196245791" duration="19115000" />
     </task>
     <task id="LOCAL-00027" summary="updated delegate functionality">
       <created>1564753887162</created>
@@ -580,11 +593,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566208555823</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="add basic process">
+      <created>1566224316537</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1566224316537</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176549000" />
+    <option name="totallyTimeSpent" value="177370000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -596,10 +616,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="509" y="0" width="1418" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20724638" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15068494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -610,8 +630,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.22210066" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2155361" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.219935" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2155361" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -658,7 +678,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="updated delegate functionality" />
     <MESSAGE value="extend binding examples" />
     <MESSAGE value="fixed the this operator on delegates on paths" />
     <MESSAGE value="moved delegate helper functions out of provider" />
@@ -683,16 +702,10 @@
     <MESSAGE value="binding performance" />
     <MESSAGE value="update documentation" />
     <MESSAGE value="add review checklist" />
-    <option name="LAST_COMMIT_MESSAGE" value="add review checklist" />
+    <MESSAGE value="add basic process" />
+    <option name="LAST_COMMIT_MESSAGE" value="add basic process" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/view-loader/view-loader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/expression-provider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -779,23 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/binding/binding-manager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view-base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/delegate-provider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -874,13 +870,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view-base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/binding-manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/home/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="51">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view-loader/view-loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
         </state>
       </provider>
     </entry>

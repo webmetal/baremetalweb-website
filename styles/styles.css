@@ -3,3 +3,6 @@
 @import "./articles.css";
 @import "./components/view-loader.css";
 
+[aria-hidden="true"] {
+    display: none;
+}
