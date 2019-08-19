@@ -1,0 +1,12 @@
+<style>
+    @import "./../../styles/tools/webgl-component.css";
+</style>
+
+<div class="toolbar">
+    <label for="name">Component Name</label>
+    <input id="name" placeholder="component-name" autofocus value.bind="componentName"/>
+    <button id="btnGenerate" click.delegate="generate">Generate</button>
+</div>
+
+<label for="edtJs">Javascript</label>
+<textarea id="edtJs" value.bind="codeJS"></textarea>

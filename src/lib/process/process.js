@@ -1,5 +1,5 @@
 export class ProcessAction {
-    constructor(title, id, nextId, fn = null) {
+    constructor(title, id = null, nextId = null, fn = null) {
         this.title = title;
         this.id = id;
         this.nextId = nextId;

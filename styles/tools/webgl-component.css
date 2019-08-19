@@ -1,27 +1,27 @@
-code-gen {
+webgl-component {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
 }
 
-code-gen .toolbar {
+webgl-component .toolbar {
     display: grid;
     grid-template-columns: 1fr 70px;
     margin-bottom: 1rem;
 }
 
-code-gen textarea {
+webgl-component textarea {
     width: 100%;
     white-space: nowrap;
     flex:1;
 }
 
-code-gen #name {
+webgl-component #name {
     width: 100%;
     grid-column: 1;
 }
 
-code-gen #btnGenerate {
+webgl-component #btnGenerate {
     grid-column: 2;
 }

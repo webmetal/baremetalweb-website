@@ -2,7 +2,7 @@ import {ViewBase} from "./../view-base.js";
 
 export default class Tools extends ViewBase {
     get toolsWindow() {
-        return this.getProperty("toolsWindow", () => this.view.querySelector("#tools"));
+        return this.getProperty("toolsWindow", () => document.querySelector("#tools"));
     }
 
     set toolsWindow(newValue) {
@@ -14,7 +14,7 @@ export default class Tools extends ViewBase {
 
         if (tool == "home") return this.toolsWindow.innerHTML = "";
 
-        this.toolsWindow.innerHTML = "<code-gen></code-gen>";
+        this.toolsWindow.innerHTML = `<${tool}></${tool}>`;
         import(`./../../tools/${tool}/${tool}.js`);
     }
 }

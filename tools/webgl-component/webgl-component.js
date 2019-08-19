@@ -1,38 +1,15 @@
 import {enableEvents, disableEventsRecursive} from "./../../src/mixins/event-mixin.js";
 import {getTemplates, tp} from "./../../src/lib/templates/templates.js";
-import {getClassName} from "../tools-helper.js";
+import {getClassName} from "./../tools-helper.js";
 
-class CodeGen extends HTMLElement {
-    get componentName() {
-        return this.getProperty("componentName", () => "");
-    }
-
-    set componentName(newValue) {
-        this.setProperty("componentName", newValue);
-    }
-
+class WebGLComponent extends HTMLElement
+{
     get codeJS() {
         return this.getProperty("codeJS", () => "");
     }
 
     set codeJS(newValue) {
         this.setProperty("codeJS", newValue);
-    }
-
-    get codeHTML() {
-        return this.getProperty("codeHTML", () => "");
-    }
-
-    set codeHTML(newValue) {
-        this.setProperty("codeHTML", newValue);
-    }
-
-    get codeCSS() {
-        return this.getProperty("codeCSS", () => "");
-    }
-
-    set codeCSS(newValue) {
-        this.setProperty("codeCSS", newValue);
     }
 
     async connectedCallback() {
@@ -50,15 +27,13 @@ class CodeGen extends HTMLElement {
 
     async generate() {
         const className = getClassName(this.componentName);
-        const result = await getTemplates("component", "component", tp.js | tp.html | tp.css, {
+        const result = await getTemplates("webgl-component", "webgl-component", tp.js, {
             __component__: this.componentName,
             __class__: className
         });
 
         this.codeJS = result[tp.js];
-        this.codeHTML = result[tp.html];
-        this.codeCSS = result[tp.css];
     }
 }
 
-customElements.define("code-gen", CodeGen);
+customElements.define("webgl-component", WebGLComponent);
