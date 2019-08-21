@@ -1,7 +1,9 @@
 <label>Value1</label>
-<input value.bind="data.value1" type="number" />
+<input value.bind="data.process.value1" type="number" />
 <label>Value2</label>
-<input value.bind="data.value2" type="number"/>
+<input value.bind="data.process.value2" type="number"/>
 <hr />
 <div>${data.interval}</div>
 <button click.delegate="process">Process</button>
+<button click.delegate="update">Update</button>
+

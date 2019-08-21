@@ -5,9 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/binding/providers/binding-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/providers/binding-provider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/binding/providers/expression.helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/providers/expression.helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/process/process.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/process/process.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,12 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/home/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+            <state relative-caret-position="476">
+              <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -29,66 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/binding-provider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/expression.helper.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/process/process.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="106" column="1" lean-forward="true" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
-              <folding>
-                <element signature="n#ProcessAction#0" />
-                <element signature="n#!!block;n#constructor#0;n#ProcessAction#0" />
-                <element signature="n#!!block;n#dispose#0;n#ProcessAction#0" />
-                <element signature="n#!!block;n#perform#0;n#ProcessAction#0" />
-                <element signature="n#Process#0" />
-                <element signature="n#!!block;n#constructor#0;n#Process#0" />
-                <element signature="n#!!block;n#dispose#0;n#Process#0" />
-                <element signature="e#643#682#0" />
-                <element signature="n#!!block;n#add#0;n#Process#0" />
-                <element signature="n#!!block;n#start#0;n#Process#0" />
-                <element signature="e#925#1142#0" />
-                <element signature="e#1069#1132#0" />
-                <element signature="n#!!block;n#_process#0;n#Process#0" />
-                <element signature="e#1199#1243#0" />
-                <element signature="e#1409#1456#0" />
-                <element signature="n#ProcessSetVariable#0" />
-                <element signature="n#!!block;n#constructor#0;n#ProcessSetVariable#0" />
-                <element signature="n#!!block;n#perform#0;n#ProcessVariable#0" />
-                <element signature="n#ProcessCondition#0" />
-                <element signature="n#!!block;n#constructor#0;n#ProcessCondition#0" />
-                <element signature="n#!!block;n#dispose#0;n#ProcessCondition#0" />
-                <element signature="n#!!block;n#_createFn#0;n#ProcessCondition#0" />
-                <element signature="n#!!block;n#perform#0;n#ProcessCondition#0" />
-              </folding>
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -144,17 +86,17 @@
         <option value="$PROJECT_DIR$/tools/webgl-component/webgl-component.js" />
         <option value="$PROJECT_DIR$/styles/tools/webgl-component.css" />
         <option value="$PROJECT_DIR$/styles/tools/code-gen.css" />
-        <option value="$PROJECT_DIR$/app/home/home.js" />
         <option value="$PROJECT_DIR$/src/lib/process/process.js" />
         <option value="$PROJECT_DIR$/src/lib/binding/providers/expression.helper.js" />
-        <option value="$PROJECT_DIR$/app/home/home.html" />
         <option value="$PROJECT_DIR$/src/lib/binding/providers/binding-provider.js" />
+        <option value="$PROJECT_DIR$/app/home/home.js" />
+        <option value="$PROJECT_DIR$/app/home/home.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
+    <option name="x" value="509" />
+    <option name="width" value="1418" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1PJPGG66HLbzKNAFgXzRRljtnVP" />
@@ -192,29 +134,7 @@
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="binding" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="binding" type="462c0819:PsiDirectoryNode" />
-              <item name="providers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="process" type="462c0819:PsiDirectoryNode" />
+              <item name="web-gl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,14 +244,9 @@
       <workItem from="1566196245791" duration="20578000" />
       <workItem from="1566232256052" duration="5057000" />
       <workItem from="1566367260385" duration="757000" />
-      <workItem from="1566368026052" duration="8608000" />
-    </task>
-    <task id="LOCAL-00029" summary="extend binding examples">
-      <created>1564756814177</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1564756814177</updated>
+      <workItem from="1566368026052" duration="9541000" />
+      <workItem from="1566378557554" duration="7000" />
+      <workItem from="1566396318736" duration="2531000" />
     </task>
     <task id="LOCAL-00030" summary="extend binding examples">
       <created>1564757103884</created>
@@ -669,11 +584,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566237345677</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="update processes and binding">
+      <created>1566377407248</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1566377407249</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193255000" />
+    <option name="totallyTimeSpent" value="196726000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -688,7 +610,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15068494" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1654373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -699,7 +621,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.1619256" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.16143012" />
       <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21451788" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -707,6 +629,26 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1654373" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.16143012" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21451788" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -747,7 +689,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="moved delegate helper functions out of provider" />
     <MESSAGE value="update property detection" />
     <MESSAGE value="update binding and property notification" />
     <MESSAGE value="update documentation and binding example on home" />
@@ -772,7 +713,8 @@
     <MESSAGE value="add basic process" />
     <MESSAGE value="add aria-hidden to view loader as not to show binding expressions" />
     <MESSAGE value="add webgl gen" />
-    <option name="LAST_COMMIT_MESSAGE" value="add webgl gen" />
+    <MESSAGE value="update processes and binding" />
+    <option name="LAST_COMMIT_MESSAGE" value="update processes and binding" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/expression-provider.js">
@@ -936,20 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/webgl-component/webgl-component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="20" lean-forward="true" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/web-gl/web-gl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="50" lean-forward="true" selection-end-line="77" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1033,37 +961,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/expression.helper.js">
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/binding-provider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="493">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/process/process.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="106" column="1" lean-forward="true" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
+        <state relative-caret-position="250">
+          <caret line="56" column="5" lean-forward="true" selection-end-line="106" selection-end-column="1" />
           <folding>
-            <element signature="n#ProcessAction#0" />
             <element signature="n#!!block;n#constructor#0;n#ProcessAction#0" />
             <element signature="n#!!block;n#dispose#0;n#ProcessAction#0" />
             <element signature="n#!!block;n#perform#0;n#ProcessAction#0" />
-            <element signature="n#Process#0" />
             <element signature="n#!!block;n#constructor#0;n#Process#0" />
             <element signature="n#!!block;n#dispose#0;n#Process#0" />
-            <element signature="e#643#682#0" />
             <element signature="n#!!block;n#add#0;n#Process#0" />
             <element signature="n#!!block;n#start#0;n#Process#0" />
-            <element signature="e#925#1142#0" />
-            <element signature="e#1069#1132#0" />
             <element signature="n#!!block;n#_process#0;n#Process#0" />
-            <element signature="e#1199#1243#0" />
-            <element signature="e#1409#1456#0" />
-            <element signature="n#ProcessSetVariable#0" />
             <element signature="n#!!block;n#constructor#0;n#ProcessSetVariable#0" />
-            <element signature="n#!!block;n#perform#0;n#ProcessVariable#0" />
-            <element signature="n#ProcessCondition#0" />
             <element signature="n#!!block;n#constructor#0;n#ProcessCondition#0" />
             <element signature="n#!!block;n#dispose#0;n#ProcessCondition#0" />
             <element signature="n#!!block;n#_createFn#0;n#ProcessCondition#0" />
@@ -1072,10 +993,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/expression.helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/webgl-component/webgl-component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web-gl/web-gl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="77" column="29" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/home/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        <state relative-caret-position="476">
+          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
@@ -1085,17 +1027,7 @@
     <entry file="file://$PROJECT_DIR$/app/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/binding-provider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
         </state>
       </provider>
     </entry>
