@@ -1,6 +1,6 @@
 import {BaseProvider} from "./base-provider.js";
 import {enableBindingPath} from "./binding-helper.js";
-import {createBindingExpFn, releaseBindingExpFn} from "./expression.helper.js";
+import {createBindingExpFn, releaseBindingExpFn, createBindingSetFn, releaseBppFn} from "./expression.helper.js";
 
 export class BindProvider extends BaseProvider {
     constructor(element, attribute, context, property) {
@@ -8,6 +8,7 @@ export class BindProvider extends BaseProvider {
         this._propertyChangedHandler = this._propertyChanged.bind(this);
         this._valueChangedHandler = this._valueChanged.bind(this);
         this.expFn = createBindingExpFn(this.property);
+        this.setFn = createBindingSetFn(this.property);
 
         this._bindProperty(context, property);
         element.addEventListener("change", this._valueChangedHandler);
@@ -16,20 +17,26 @@ export class BindProvider extends BaseProvider {
     dispose() {
         this.element.removeEventListener("change", this._valueChangedHandler);
 
-        releaseBindingExpFn(this.property);
-
         this._propertyChangedHandler = null;
         this._valueChangedHandler = null;
-        this.expFn = null;
 
-        // cleanup the context.on(attribute...
-        // cleanup biding
+        releaseBindingExpFn(this.property);
+        releaseBppFn(this.property);
+
+        this.expFn = null;
+        this.setFn = null;
 
         super.dispose();
     }
 
     _valueChanged(event) {
-        this.context[this.property] = event.target.value;
+        let value = event.target.value;
+
+        if (event.target.type == "number") {
+            value = Number(value);
+        }
+
+        this.setFn(this.context, value);
     }
 
     _bindProperty(context, property) {
@@ -40,7 +47,7 @@ export class BindProvider extends BaseProvider {
         context.on(property, this._propertyChangedHandler);
     }
 
-    _propertyChanged(name, newValue) {
+    _propertyChanged() {
          Promise.resolve().then(()=> this.element[this.attribute] = this.expFn(this.context));
     }
 

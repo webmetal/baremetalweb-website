@@ -1,13 +1,7 @@
-<style>
-    .webgl {
-        width: 100%;
-        height: 500px;
-    }
-</style>
-
+<label>Value1</label>
+<input value.bind="data.value1" type="number" />
+<label>Value2</label>
+<input value.bind="data.value2" type="number"/>
+<hr />
 <div>${data.interval}</div>
 <button click.delegate="process">Process</button>
-
-<div class="webgl">
-    <web-gl></web-gl>
-</div>

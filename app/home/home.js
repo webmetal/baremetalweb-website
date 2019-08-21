@@ -1,12 +1,14 @@
 import {ViewBase} from "./../view-base.js";
-import {Process, ProcessAction} from "./../../src/lib/process/process.js";
-
-import "./../../src/web-gl/web-gl.js";
+import {Process, ProcessAction, ProcessSetVariable, ProcessCondition} from "./../../src/lib/process/process.js";
 
 export default class Home extends ViewBase {
     connectedCallback() {
         super.connectedCallback();
-        this.data = {interval: 0}
+        this.data = {
+            interval: 0,
+            value1: 1,
+            value2: 1
+        }
     }
 
     loaded() {
@@ -16,12 +18,14 @@ export default class Home extends ViewBase {
     async process() {
         const process = new Process("Test Process", 0);
 
-        process.add(new ProcessAction("add", 0, 1, () => 1 + 30));
-        process.add(new ProcessAction("log done", 2, 3, () => {console.log("done")}));
-        process.add(new ProcessAction("log result", 1, 2, (value) => {
-            console.log(`result: ${value}`);
-            this.data.interval = value;
-        }));
+        process.add(new ProcessAction("add", 0, 1, () => this.data.value1 + this.data.value2));
+        process.add(new ProcessSetVariable("setVar", 1, 2, "addResult"));
+
+        process.add(new ProcessCondition("eval", 2, 3, 4, "@addResult > 5"));
+
+        process.add(new ProcessAction("passed", 3, null, () => this.data.interval = "value was greater than 5"));
+        process.add(new ProcessAction("failed", 4, null, () => this.data.interval = "value was less than 5 or less"));
+
         await process.start();
         process.dispose();
     }

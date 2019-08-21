@@ -13,6 +13,7 @@ export class ProcessAction {
         this.nextId = null;
         this.fn = null;
         this.input = null;
+        this.process = null;
     }
 
     async perform() {
@@ -24,6 +25,7 @@ export class Process extends ProcessAction {
     constructor(title, id) {
         super(title, id);
         this.items = [];
+        this.variables = {};
     }
 
     dispose() {
@@ -31,11 +33,13 @@ export class Process extends ProcessAction {
             item.dispose();
         }
         this.items = null;
+        this.variables = null;
         super.dispose();
     }
 
     add(step) {
         this.items.push(step);
+        step.process = this;
     }
 
     async start() {
@@ -67,9 +71,37 @@ export class Process extends ProcessAction {
     }
 }
 
+export class ProcessSetVariable extends ProcessAction {
+    constructor(title, id, nextId, varName) {
+        super(title, id, nextId);
+        this.varName = varName;
+    }
 
-export class ProcessCondition {
+    async perform() {
+        this.process.variables[this.varName] = this.input;
+        return this.input;
+    }
 }
 
-export class ProcessBranch {
+export class ProcessCondition extends ProcessAction {
+    constructor(title, id, passId, failId, exp) {
+        super(title, id, passId);
+        this.passId = passId;
+        this.failId = failId;
+        this.fn = this._createFn(exp);
+    }
+
+    dispose() {
+        this.failId = null;
+        super.dispose();
+    }
+
+    _createFn(exp) {
+        const expression = exp.split("@").join("this.process.variables.");
+        return new Function(`return ${expression}`);
+    }
+
+    perform() {
+        this.nextId = this.fn() ? this.passId : this.failId;
+    }
 }
