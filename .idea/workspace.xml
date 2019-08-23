@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="686b1fa5-a3f7-4d4b-8594-9d00e6085551" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/articles/articles.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/binding/behaviours/base-behaviour.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/binding/binding-behaviour-factory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view-md/view-md.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/views/articles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/views/view.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/articles/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/articles/articles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/articles/articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/articles/articles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tools/tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/tools/tools.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/lib.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/lib.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/views/tools.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/views/tools.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/menu.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="435">
+              <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -38,17 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/articles/articles.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/articles/articles.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -62,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/menu.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="459">
+              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -183,9 +161,9 @@
         <option value="$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js" />
         <option value="$PROJECT_DIR$/app/articles/articles.html" />
         <option value="$PROJECT_DIR$/styles/lib.css" />
-        <option value="$PROJECT_DIR$/styles/menu.css" />
         <option value="$PROJECT_DIR$/app/tools/tools.html" />
         <option value="$PROJECT_DIR$/app/articles/articles.json" />
+        <option value="$PROJECT_DIR$/styles/menu.css" />
       </list>
     </option>
   </component>
@@ -225,6 +203,32 @@
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="binding" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="binding" type="462c0819:PsiDirectoryNode" />
+              <item name="behaviours" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
@@ -345,21 +349,7 @@
       <workItem from="1566484789241" duration="26000" />
       <workItem from="1566541222088" duration="305000" />
       <workItem from="1566542163532" duration="19915000" />
-      <workItem from="1566581125812" duration="8861000" />
-    </task>
-    <task id="LOCAL-00038" summary="update binding and property notification">
-      <created>1564777683640</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1564777683640</updated>
-    </task>
-    <task id="LOCAL-00039" summary="update documentation and binding example on home">
-      <created>1564994191621</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1564994191621</updated>
+      <workItem from="1566581125812" duration="10123000" />
     </task>
     <task id="LOCAL-00040" summary="added documentation">
       <created>1564998262104</created>
@@ -690,11 +680,25 @@
       <option name="project" value="LOCAL" />
       <updated>1566579722714</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="menu">
+      <created>1566590018121</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1566590018122</updated>
+    </task>
+    <task id="LOCAL-00088" summary="menu style">
+      <created>1566590867936</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1566590867936</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231002000" />
+    <option name="totallyTimeSpent" value="232264000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -709,7 +713,7 @@
     <frame x="712" y="0" width="1215" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25488532" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25488532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -720,8 +724,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.25164112" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21444201" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.25054705" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21444201" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -788,8 +792,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="update documentation and binding example on home" />
-    <MESSAGE value="added documentation" />
     <MESSAGE value="added contextualizes function for expression parsing" />
     <MESSAGE value="added comments" />
     <MESSAGE value="updated flow diagram svg" />
@@ -813,7 +815,9 @@
     <MESSAGE value="update processes and binding" />
     <MESSAGE value="added code editor" />
     <MESSAGE value="style changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="style changes" />
+    <MESSAGE value="menu" />
+    <MESSAGE value="menu style" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu style" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/monaco-editor/esm/vs/editor/editor.all.js" />
@@ -1091,20 +1095,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/lib.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/menu.css">
+    <entry file="file://$PROJECT_DIR$/app/articles/articles.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="663">
+          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1117,15 +1114,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/articles/articles.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/articles/articles.json">
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        <state relative-caret-position="435">
+          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
         </state>
       </provider>
     </entry>
