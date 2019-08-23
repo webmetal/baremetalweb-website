@@ -23,6 +23,7 @@
 1. Datasource
 1. Store
 1. Separation of concern
+1. Plugin
 
 ## Prelude
 For the purpose of this text we will assume you are working with object instances in sone shape or form.  
@@ -141,3 +142,8 @@ This is something new developers struggle with a lot where they try and make an 
 
 From an object perspective it would mean, "I do one thing and I do it well".
 Separation of concern promotes modularity witch in turn means reuse. 
+
+## Plugin pattern
+This pattern allows the dynamic registration of functionality during runtime or load time.
+This may or may not be similar with the factory pattern but can be used with the factory pattern to dynamically extend the factory's capability at runtime.
+ 
