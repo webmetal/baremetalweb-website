@@ -1,5 +1,7 @@
 import {getPathFolder} from "./../lib/utils/path-utils.js";
+
 import "./ace/ace.js";
+import "./ace/ext-language_tools.js";
 
 class CodeEditor extends HTMLElement {
     get language() {
@@ -24,9 +26,19 @@ class CodeEditor extends HTMLElement {
         setTimeout(() => {
             const path = getPathFolder(import.meta.url);
             ace.config.set("basePath", `${path}/ace`);
+            ace.require("ace/ext/language_tools");
+
             this.editor = ace.edit(this.querySelector("#editor"));
+
+            this.editor.renderer.setShowGutter(false);
             this.editor.setTheme("ace/theme/chrome");
             this.editor.session.setMode(`ace/mode/${this.language}`);
+
+            this.editor.setOptions({
+                enableBasicAutocompletion: true,
+                enableSnippets: true,
+                enableLiveAutocompletion: true
+            });
         }, 0)
     }
 }
