@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="686b1fa5-a3f7-4d4b-8594-9d00e6085551" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/articles/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/articles/articles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/articles/articles.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/articles/articles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/views/view.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/views/view.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,70 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+            <state relative-caret-position="416">
+              <caret line="97" column="20" lean-forward="true" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/articles/articles.html">
+        <entry file="file://$PROJECT_DIR$/app/articles/articles.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/tools/tools.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/styles/menu.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/lib.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/binding/behaviours/base-behaviour.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/binding/binding-behaviour-factory.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+            <state relative-caret-position="-451">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -149,7 +102,6 @@
         <option value="$PROJECT_DIR$/styles/styles.css" />
         <option value="$PROJECT_DIR$/styles/input.css" />
         <option value="$PROJECT_DIR$/src/view-md/view-md.js" />
-        <option value="$PROJECT_DIR$/styles/views/view.css" />
         <option value="$PROJECT_DIR$/styles/views/tools.css" />
         <option value="$PROJECT_DIR$/styles/views/articles.css" />
         <option value="$PROJECT_DIR$/src/lib/binding/providers/list-provider.js" />
@@ -158,12 +110,13 @@
         <option value="$PROJECT_DIR$/src/lib/binding/binding-behaviour-factory.js" />
         <option value="$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js" />
         <option value="$PROJECT_DIR$/app/articles/articles.js" />
-        <option value="$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js" />
-        <option value="$PROJECT_DIR$/app/articles/articles.html" />
-        <option value="$PROJECT_DIR$/styles/lib.css" />
         <option value="$PROJECT_DIR$/app/tools/tools.html" />
-        <option value="$PROJECT_DIR$/app/articles/articles.json" />
         <option value="$PROJECT_DIR$/styles/menu.css" />
+        <option value="$PROJECT_DIR$/styles/lib.css" />
+        <option value="$PROJECT_DIR$/app/articles/articles.html" />
+        <option value="$PROJECT_DIR$/styles/views/view.css" />
+        <option value="$PROJECT_DIR$/app/articles/articles.json" />
+        <option value="$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js" />
       </list>
     </option>
   </component>
@@ -201,12 +154,6 @@
             <path>
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -234,6 +181,12 @@
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -349,14 +302,7 @@
       <workItem from="1566484789241" duration="26000" />
       <workItem from="1566541222088" duration="305000" />
       <workItem from="1566542163532" duration="19915000" />
-      <workItem from="1566581125812" duration="10123000" />
-    </task>
-    <task id="LOCAL-00040" summary="added documentation">
-      <created>1564998262104</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1564998262104</updated>
+      <workItem from="1566581125812" duration="18037000" />
     </task>
     <task id="LOCAL-00041" summary="added documentation">
       <created>1564998575980</created>
@@ -694,11 +640,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566590867936</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="menu style">
+      <created>1566591262042</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1566591262043</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232264000" />
+    <option name="totallyTimeSpent" value="240178000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -717,7 +670,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -990,13 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/views/view.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/views/tools.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1095,41 +1041,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/lib.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/articles/articles.json">
+    <entry file="file://$PROJECT_DIR$/styles/menu.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        <state relative-caret-position="459">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/tools/tools.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="153">
+          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/views/view.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/lib.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/articles/articles.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/articles/articles.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-451">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state relative-caret-position="416">
+          <caret line="97" column="20" lean-forward="true" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
         </state>
       </provider>
     </entry>

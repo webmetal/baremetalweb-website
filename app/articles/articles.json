@@ -1,52 +1,67 @@
 {
   "articles": [
     {
+      "id": "0",
       "title": "Binding",
       "articles": [
         {
+          "id": "0.0",
           "title": "Binding expressions"
         },
         {
+          "id": "0.1",
           "title": "Delegate examples"
         }
       ]
     },
     {
+      "id": "1",
       "title": "Practices",
       "articles": [
         {
+          "id": "1.0",
           "title": "Convention over code"
         },
         {
+          "id": "1.1",
           "title": "Dom updates"
         },
         {
+          "id": "1.2",
           "title": "Factory pattern"
         },
         {
+          "id": "1.3",
           "title": "General principles"
         },
         {
+          "id": "1.4",
           "title": "Graphics performance"
         },
         {
+          "id": "1.5",
           "title": "Graphics terms"
         },
         {
+          "id": "1.6",
           "title": "Memory efficient options"
         },
         {
+          "id": "1.6",
           "title": "Review checklist"
         },
         {
+          "id": "1.7",
           "title": "Vocabulary"
         }
       ]
     },
     {
+      "id": "2",
       "title": "Technologies",
       "articles": [
         {
+          "id": "2.0",
           "title": "Keep your eye on"
         }
       ]
