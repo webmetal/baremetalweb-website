@@ -13,10 +13,16 @@ export async function parseElement(element, context, callback) {
         await parseElement(child, context, callback);
     }
 
-    const attributes = Array.from(element.attributes).filter(item => item.name.indexOf(".bind") != -1 || item.name.indexOf(".delegate") != -1);
+    const attributes = Array.from(element.attributes).filter(item => item.name.indexOf("behaviour.") != -1 || item.name.indexOf(".bind") != -1 || item.name.indexOf(".delegate") != -1);
     for (let attribute of attributes) {
         const parts = attribute.name.split(".");
         const attr = parts[0];
+
+        if (attr == "behaviour") {
+            await parseBehaviour(attribute, context, parts[1], callback);
+            continue;
+        }
+
         const providerName = parts[1];
         const property = attribute.value;
         callback(await BindingProviderFactory[providerName](element, attr, context, property));
@@ -25,4 +31,9 @@ export async function parseElement(element, context, callback) {
     if (element.children.length == 0 && element.innerHTML.indexOf("${") != -1) {
         callback(await BindingProviderFactory.expression(element, context));
     }
+}
+
+export async function parseBehaviour(attribute, context, behaviour, callback) {
+    const module = await import("./binding-behaviour-factory.js");
+    callback(await module.BindingBehaviourFactory[behaviour](attribute, context));
 }

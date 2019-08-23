@@ -1,9 +1,23 @@
-<div>
-    <h1>Articles</h1>
-    <aside>
-        <ul role="menu">
-            <li>Test1</li>
-            <li>Test2</li>
+<style>
+    @import "./../../styles/views/view.css";
+    @import "./../../styles/views/articles.css";
+    @import "./../../styles/menu.css";
+</style>
+
+<div id="view-body">
+    <aside class="bordered">
+        <div class="toolbar">
+            <h2 class="menu-title">Articles</h2>
+        </div>
+
+        <ul role="menu" click.delegate="handleMenuClick($event)" behaviour.menu="items,articles,title">
+            <li role="menuitem">Home</li>
+            <li role="menuitem">Code Gen</li>
+            <li role="menuitem">WebGL Component</li>
         </ul>
     </aside>
+
+    <div id="articles" class="bordered tool">
+
+    </div>
 </div>

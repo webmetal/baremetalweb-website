@@ -9,12 +9,17 @@ export default class Articles extends ViewBase {
         this.setProperty("articles", newValue);
     }
 
-    connectedCallback() {
+    async connectedCallback() {
         super.connectedCallback();
         this.notifyPropertyChanged("articles");
+        this.items = JSON.parse(await fetch(import.meta.url.replace(".js", ".json")).then(result => result.text()))
     }
 
     loaded() {
-        this.notifyPropertyChanged("items", "test");
+        this.notifyPropertyChanged("items", this.items);
+    }
+
+    handleMenuClick(event) {
+        console.log(event);
     }
 }
