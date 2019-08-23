@@ -3,6 +3,7 @@
 @import "./articles.css";
 @import "./components/view-loader.css";
 @import "./group.css";
+@import "./input.css";
 @import "./lib.css";
 
 html {

@@ -1,0 +1,11 @@
+input, input:focus {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    border-bottom: var(--cl-back-c) solid 1px;
+}
+
+input:focus {
+    border-color: var(--cl-focus);
+}

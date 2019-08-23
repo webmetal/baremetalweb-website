@@ -20,6 +20,12 @@
     opacity: 0.8;
 }
 
+[role="group"] h2::first-letter {
+    color: var(--cl-focus);
+    font-weight: bold;
+    opacity:1;
+}
+
 [role="group"] > div {
     position: absolute;
     left:0.5rem;

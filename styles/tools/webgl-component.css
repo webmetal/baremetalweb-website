@@ -5,12 +5,6 @@ webgl-component {
     height: 100%;
 }
 
-webgl-component .toolbar {
-    display: grid;
-    grid-template-columns: 1fr 70px;
-    margin-bottom: 1rem;
-}
-
 webgl-component textarea {
     width: 100%;
     white-space: nowrap;
@@ -24,4 +18,13 @@ webgl-component #name {
 
 webgl-component #btnGenerate {
     grid-column: 2;
+}
+
+webgl-component .toolbar label {
+    white-space: nowrap;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+webgl-component .toolbar button {
+    margin: 0 0.5rem 0 0.5rem;
 }
