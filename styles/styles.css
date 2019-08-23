@@ -6,3 +6,11 @@
 [aria-hidden="true"] {
     display: none;
 }
+
+.flex {
+    flex: 1;
+}
+
+.relative {
+    position: relative;
+}

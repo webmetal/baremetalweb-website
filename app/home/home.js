@@ -1,7 +1,6 @@
 import {ViewBase} from "./../view-base.js";
 import {Process, ProcessAction, ProcessSetVariable, ProcessCondition} from "./../../src/lib/process/process.js";
 
-
 export default class Home extends ViewBase {
     connectedCallback() {
         super.connectedCallback();

@@ -9,10 +9,16 @@
 </div>
 
 <label for="edtJs">Javascript</label>
-<textarea id="edtJs" value.bind="codeJS"></textarea>
+<div class="flex relative">
+    <code-editor id="edtJs" language="javascript" value.bind="codeJS"></code-editor>
+</div>
 
 <label for="edtHTML">HTML</label>
-<textarea id="edtHTML" value.bind="codeHTML"></textarea>
+<div class="flex relative">
+    <code-editor id="edtHTML" language="html" value.bind="codeHTML"></code-editor>
+</div>
 
 <label for="edtCss">CSS</label>
-<textarea id="edtCss" value.bind="codeCSS"></textarea>
+<div class="flex relative">
+    <code-editor id="edtCss" language="css" value.bind="codeCSS"></code-editor>
+</div>
