@@ -1,0 +1,32 @@
+ul[role="menu"] {
+    background: var(--s-pr-bg);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li[role="menuitem"] {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+[aria-hidden="true"] {
+    display: none;
+}
+
+.flex {
+    flex: 1;
+}
+
+.relative {
+    position: relative;
+}
+
+.toolbar {
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    border-bottom: var(--s-se-bg) solid 1px;
+}
+

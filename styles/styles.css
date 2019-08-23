@@ -2,15 +2,11 @@
 @import "./typo.css";
 @import "./articles.css";
 @import "./components/view-loader.css";
+@import "./group.css";
+@import "./lib.css";
 
-[aria-hidden="true"] {
-    display: none;
-}
-
-.flex {
-    flex: 1;
-}
-
-.relative {
-    position: relative;
+html {
+    --s-pr-bg: white;
+    --s-se-bg: #EBEBEB;
+    --s-te-bg: #E5E5E5
 }

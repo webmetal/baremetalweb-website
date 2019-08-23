@@ -38,7 +38,7 @@
     <style>
         html {
             --cl-back-b: #202124;
-            --cl-back-c: white;
+            --cl-back-c: silver;
             --cl-focus: #69abff;
             --head-height: 70px;
         }
@@ -69,6 +69,7 @@
             box-shadow: 0 2px 4px rgba(0,0,0,.5);
             display: flex;
             user-select: none;
+            z-index: 9999;
         }
 
         header svg {
@@ -96,6 +97,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            background: var(--cl-back-b);
+            color: var(--cl-back-c);
         }
     </style>
 </head>

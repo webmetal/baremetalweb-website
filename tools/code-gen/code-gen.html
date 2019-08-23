@@ -8,17 +8,24 @@
     <button id="btnGenerate" click.delegate="generate">Generate</button>
 </div>
 
-<label for="edtJs">Javascript</label>
-<div class="flex relative">
-    <code-editor id="edtJs" language="javascript" value.bind="codeJS"></code-editor>
+<div role="group">
+    <h2>javascript</h2>
+    <div>
+        <code-editor id="edtJs" language="javascript" value.bind="codeJS"></code-editor>
+    </div>
 </div>
 
-<label for="edtHTML">HTML</label>
-<div class="flex relative">
-    <code-editor id="edtHTML" language="html" value.bind="codeHTML"></code-editor>
+<div role="group">
+    <h2>html</h2>
+    <div>
+        <code-editor id="edtHTML" language="html" value.bind="codeHTML"></code-editor>
+    </div>
 </div>
 
-<label for="edtCss">CSS</label>
-<div class="flex relative">
-    <code-editor id="edtCss" language="css" value.bind="codeCSS"></code-editor>
+
+<div role="group">
+    <h2>css</h2>
+    <div>
+        <code-editor id="edtCss" language="css" value.bind="codeCSS"></code-editor>
+    </div>
 </div>

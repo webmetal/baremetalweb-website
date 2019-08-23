@@ -2,10 +2,12 @@
     @import "./../../styles/views/tools.css";
 </style>
 
-<h1>Tools</h1>
-
 <div id="view-body">
-    <aside>
+    <aside class="bordered">
+        <div class="toolbar">
+            <h2 class="menu-title">Tools</h2>
+        </div>
+
         <ul role="menu" click.delegate="handleMenuClick($event)">
             <li data-tool="home" role="menuitem">Home</li>
             <li data-tool="code-gen" role="menuitem">Code Gen</li>
@@ -13,7 +15,7 @@
         </ul>
     </aside>
 
-    <div id="tools">
+    <div id="tools" class="bordered tool">
 
     </div>
 </div>

@@ -5,12 +5,6 @@ code-gen {
     height: 100%;
 }
 
-code-gen .toolbar {
-    display: grid;
-    grid-template-columns: 1fr 70px;
-    margin-bottom: 1rem;
-}
-
 code-gen textarea {
     width: 100%;
     white-space: nowrap;
@@ -24,4 +18,13 @@ code-gen #name {
 
 code-gen #btnGenerate {
     grid-column: 2;
+}
+
+code-gen .toolbar label {
+    white-space: nowrap;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+code-gen .toolbar button {
+    margin: 0 0.5rem 0 0.5rem;
 }
