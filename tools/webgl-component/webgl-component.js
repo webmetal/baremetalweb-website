@@ -1,6 +1,7 @@
 import {enableEvents, disableEventsRecursive} from "./../../src/mixins/event-mixin.js";
 import {getTemplates, tp} from "./../../src/lib/templates/templates.js";
 import {getClassName} from "./../tools-helper.js";
+import "./../../src/code-editor/code-editor.js";
 
 class WebGLComponent extends HTMLElement
 {

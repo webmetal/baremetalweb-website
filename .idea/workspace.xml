@@ -2,420 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="686b1fa5-a3f7-4d4b-8594-9d00e6085551" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-beautify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-elastic_tabstops_lite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-emmet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-error_marker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-keybinding_menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-language_tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-linking.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-modelist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-prompt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-rtl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-searchbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-settings_menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-spellcheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-split.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-static_highlight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-statusbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-textarea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-themelist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/ext-whitespace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/keybinding-emacs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/keybinding-sublime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/keybinding-vim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-abap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-abc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-actionscript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-ada.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-apache_conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-apex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-applescript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-aql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-asciidoc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-asl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-assembly_x86.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-autohotkey.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-batchfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-bro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-c9search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-c_cpp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-cirru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-clojure.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-cobol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-coffee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-coldfusion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-crystal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-csharp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-csound_document.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-csound_orchestra.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-csound_score.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-csp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-curly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-dart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-diff.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-django.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-dockerfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-dot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-drools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-edifact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-eiffel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-ejs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-elixir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-elm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-erlang.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-forth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-fortran.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-fsharp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-fsl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-ftl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-gcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-gherkin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-gitignore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-glsl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-gobstones.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-golang.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-graphqlschema.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-groovy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-haml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-handlebars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-haskell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-haskell_cabal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-haxe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-hjson.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-html_elixir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-html_ruby.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-ini.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-io.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-jack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-jade.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-java.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-jsoniq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-jsp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-jssm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-jsx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-julia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-kotlin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-latex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-less.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-liquid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-lisp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-livescript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-logiql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-logtalk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-lsl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-lua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-luapage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-lucene.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-makefile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-markdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-mask.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-matlab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-maze.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-mel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-mixal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-mushcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-mysql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-nginx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-nim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-nix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-nsis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-objectivec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-ocaml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-pascal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-perl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-perl6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-pgsql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-php.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-php_laravel_blade.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-pig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-plain_text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-powershell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-praat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-prolog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-properties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-protobuf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-puppet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-python.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-r.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-razor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-rdoc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-red.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-redshift.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-rhtml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-rst.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-ruby.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-rust.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-sass.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-scad.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-scala.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-scheme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-scss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-sh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-sjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-smarty.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-snippets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-soy_template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-space.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-sparql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-sql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-sqlserver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-stylus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-svg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-swift.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-tcl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-terraform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-tex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-textile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-toml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-tsx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-turtle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-twig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-typescript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-vala.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-vbscript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-velocity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-verilog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-vhdl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-visualforce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-wollok.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-xml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-xquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-yaml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/mode-zeek.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/abap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/abc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/actionscript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/ada.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/apache_conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/apex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/applescript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/aql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/asciidoc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/asl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/assembly_x86.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/autohotkey.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/batchfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/bro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/c9search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/c_cpp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/cirru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/clojure.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/cobol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/coffee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/coldfusion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/crystal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/csharp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/csound_document.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/csound_orchestra.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/csound_score.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/csp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/curly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/dart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/diff.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/django.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/dockerfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/dot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/drools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/edifact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/eiffel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/ejs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/elixir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/elm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/erlang.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/forth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/fortran.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/fsharp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/fsl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/ftl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/gcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/gherkin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/gitignore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/glsl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/gobstones.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/golang.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/graphqlschema.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/groovy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/haml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/handlebars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/haskell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/haskell_cabal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/haxe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/hjson.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/html_elixir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/html_ruby.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/ini.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/io.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/jack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/jade.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/java.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/jsoniq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/jsp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/jssm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/jsx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/julia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/kotlin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/latex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/less.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/liquid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/lisp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/livescript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/logiql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/logtalk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/lsl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/lua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/luapage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/lucene.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/makefile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/markdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/mask.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/matlab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/maze.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/mel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/mixal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/mushcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/mysql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/nginx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/nim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/nix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/nsis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/objectivec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/ocaml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/pascal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/perl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/perl6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/pgsql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/php.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/php_laravel_blade.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/pig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/plain_text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/powershell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/praat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/prolog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/properties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/protobuf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/puppet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/python.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/r.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/razor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/rdoc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/red.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/redshift.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/rhtml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/rst.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/ruby.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/rust.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/sass.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/scad.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/scala.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/scheme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/scss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/sh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/sjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/smarty.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/snippets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/soy_template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/space.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/sparql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/sql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/sqlserver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/stylus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/svg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/swift.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/tcl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/terraform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/tex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/textile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/toml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/tsx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/turtle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/twig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/typescript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/vala.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/vbscript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/velocity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/verilog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/vhdl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/visualforce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/wollok.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/xml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/xquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/yaml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/snippets/zeek.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-ambiance.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-chaos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-chrome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-clouds.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-clouds_midnight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-cobalt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-crimson_editor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-dawn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-dracula.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-dreamweaver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-eclipse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-github.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-gob.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-gruvbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-idle_fingers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-iplastic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-katzenmilch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-kr_theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-kuroir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-merbivore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-merbivore_soft.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-mono_industrial.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-monokai.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-pastel_on_dark.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-solarized_dark.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-solarized_light.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-sqlserver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-terminal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-textmate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-tomorrow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-tomorrow_night.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-tomorrow_night_blue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-tomorrow_night_bright.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-tomorrow_night_eighties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-twilight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-vibrant_ink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/theme-xcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/worker-coffee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/worker-css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/worker-html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/worker-javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/worker-json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/worker-lua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/worker-php.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/worker-xml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/ace/worker-xquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/code-editor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code-editor/code-editor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/utils/path-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/components/code-editor.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/radio-menu/radio-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/radio-menu/radio-menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/code-gen/code-gen.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/code-gen/code-gen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/code-gen/code-gen.js" beforeDir="false" afterPath="$PROJECT_DIR$/tools/code-gen/code-gen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/webgl-component/webgl-component.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/webgl-component/webgl-component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/webgl-component/webgl-component.js" beforeDir="false" afterPath="$PROJECT_DIR$/tools/webgl-component/webgl-component.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -434,13 +23,40 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/code-editor/code-editor.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/code-gen/code-gen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tools/webgl-component/webgl-component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/code-gen/code-gen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/webgl-component/webgl-component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="e#0#59#0" expanded="true" />
+                <element signature="e#0#87#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -502,8 +118,6 @@
         <option value="$PROJECT_DIR$/src/monaco-editor/monaco-editor.js" />
         <option value="$PROJECT_DIR$/articles/technologies/keep-eye-on.md" />
         <option value="$PROJECT_DIR$/articles/practices/vocabulary.md" />
-        <option value="$PROJECT_DIR$/tools/webgl-component/webgl-component.html" />
-        <option value="$PROJECT_DIR$/tools/webgl-component/webgl-component.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/radio-menu/radio-menu.html" />
         <option value="$PROJECT_DIR$/src/lib/utils/path-utils.js" />
@@ -515,6 +129,8 @@
         <option value="$PROJECT_DIR$/tools/code-gen/code-gen.js" />
         <option value="$PROJECT_DIR$/src/code-editor/code-editor.html" />
         <option value="$PROJECT_DIR$/src/code-editor/code-editor.js" />
+        <option value="$PROJECT_DIR$/tools/webgl-component/webgl-component.js" />
+        <option value="$PROJECT_DIR$/tools/webgl-component/webgl-component.html" />
       </list>
     </option>
   </component>
@@ -545,19 +161,19 @@
             <path>
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="code-gen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="code-editor" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="webgl-component" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -673,14 +289,7 @@
       <workItem from="1566396318736" duration="7700000" />
       <workItem from="1566484789241" duration="26000" />
       <workItem from="1566541222088" duration="305000" />
-      <workItem from="1566542163532" duration="7493000" />
-    </task>
-    <task id="LOCAL-00032" summary="fixed the this operator on delegates on paths">
-      <created>1564758744368</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1564758744368</updated>
+      <workItem from="1566542163532" duration="7725000" />
     </task>
     <task id="LOCAL-00033" summary="fixed the this operator on delegates on paths">
       <created>1564758887638</created>
@@ -1018,11 +627,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566548856801</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="added code editor">
+      <created>1566554437822</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1566554437822</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209719000" />
+    <option name="totallyTimeSpent" value="209951000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1057,7 +673,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1654373" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17492098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1068,8 +684,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.16143012" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21451788" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.24918744" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21451788" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1116,7 +732,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="update property detection" />
     <MESSAGE value="update binding and property notification" />
     <MESSAGE value="update documentation and binding example on home" />
     <MESSAGE value="added documentation" />
@@ -1141,7 +756,8 @@
     <MESSAGE value="add aria-hidden to view loader as not to show binding expressions" />
     <MESSAGE value="add webgl gen" />
     <MESSAGE value="update processes and binding" />
-    <option name="LAST_COMMIT_MESSAGE" value="update processes and binding" />
+    <MESSAGE value="added code editor" />
+    <option name="LAST_COMMIT_MESSAGE" value="added code editor" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/articles/practices/dom-updates.md">
@@ -1427,23 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/webgl-component/webgl-component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/webgl-component/webgl-component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/articles/technologies/keep-eye-on.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1515,24 +1114,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/code-gen/code-gen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/code-gen/code-gen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1543,13 +1128,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/code-editor/code-editor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/code-editor/code-editor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1557,6 +1135,44 @@
           <folding>
             <element signature="e#0#59#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code-editor/code-editor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/code-gen/code-gen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/code-gen/code-gen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/webgl-component/webgl-component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/webgl-component/webgl-component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
         </state>
       </provider>
     </entry>
