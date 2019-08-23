@@ -39,7 +39,7 @@ class CodeEditor extends HTMLElement {
                 enableSnippets: true,
                 enableLiveAutocompletion: true
             });
-        }, 0)
+        }, 10)
     }
 }
 
