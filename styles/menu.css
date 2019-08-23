@@ -8,4 +8,18 @@ ul[role="menu"] {
 li[role="menuitem"] {
     padding: 0.5rem;
     cursor: pointer;
+    position: relative;
+}
+
+li[role="menuitem"].parent:after {
+    content: attr(data-count);
+    position: absolute;
+    right: 0.5rem;
+    top: 0.25rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    padding: 0.5rem;
+    line-height: 0.5rem;
+    color: var(--cl-focus);
+    border-left: var(--cl-back-c) solid 1px;
 }
