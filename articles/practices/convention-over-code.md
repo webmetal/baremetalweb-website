@@ -21,7 +21,7 @@ Conventions can include:
 Let us use a example to demonstrate this principle.
 I want to load an image based on a type.
 
-Given this object structure:
+### Given this object structure:
 ```js
 const folder = {
     type: "folder"
@@ -36,7 +36,7 @@ You can have a function that will retrieve an icon to use based on the object's 
 You will often notice how conventions eliminate the requirement for if and case statements.
 Less conditional evaluations means faster code, specially when dealing with large numbers of iterations.
 
-Consider this function
+###Consider this function
 ```js
 function loadIcon(obj) {
     const file = `/images/icons/${obj.type || 'file'}.svg`;
@@ -60,7 +60,7 @@ This not only limits the number of lines of code you need to write but also futu
 It is important to always consider proper conventions when writing your code.
 These conventions should be part of your development standards enforced during code reviews.
 
-Less code means:
+### Less code means:
 1. Less bytes to download
 1. Less parsing that is required
 1. Faster compilation times in the browser

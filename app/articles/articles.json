@@ -6,11 +6,13 @@
       "articles": [
         {
           "id": "0.0",
-          "title": "Binding expressions"
+          "title": "Binding expressions",
+          "path": "binding/binding-expressions.md"
         },
         {
           "id": "0.1",
-          "title": "Delegate examples"
+          "title": "Delegate examples",
+          "path": "binding/delegate-examples.md"
         }
       ]
     },
@@ -20,39 +22,48 @@
       "articles": [
         {
           "id": "1.0",
-          "title": "Convention over code"
+          "title": "Convention over code",
+          "path": "practices/convention-over-code.md"
         },
         {
           "id": "1.1",
-          "title": "Dom updates"
+          "title": "Dom updates",
+          "path": "practices/dom-updates.md"
         },
         {
           "id": "1.2",
-          "title": "Factory pattern"
+          "title": "Factory pattern",
+          "path": "practices/factory-pattern.md"
         },
         {
           "id": "1.3",
-          "title": "General principles"
+          "title": "General principles",
+          "path": "practices/general-principles.md"
         },
         {
           "id": "1.4",
-          "title": "Graphics performance"
+          "title": "Graphics performance",
+          "path": "practices/graphics-performance.md"
         },
         {
           "id": "1.5",
-          "title": "Graphics terms"
+          "title": "Graphics terms",
+          "path": "practices/graphics-terms.md"
         },
         {
           "id": "1.6",
-          "title": "Memory efficient options"
+          "title": "Memory efficient options",
+          "path": "practices/memory-efficient-options.md"
         },
         {
           "id": "1.6",
-          "title": "Review checklist"
+          "title": "Review checklist",
+          "path": "practices/review-checklist.md"
         },
         {
           "id": "1.7",
-          "title": "Vocabulary"
+          "title": "Vocabulary",
+          "path": "practices/vocabulary.md"
         }
       ]
     },
@@ -62,7 +73,8 @@
       "articles": [
         {
           "id": "2.0",
-          "title": "Keep your eye on"
+          "title": "Keep your eye on",
+          "path": "technologies/keep-eye-on.md"
         }
       ]
     }

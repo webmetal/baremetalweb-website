@@ -14,19 +14,16 @@ Here are a couple of useful terms that you should know and use during graphics p
 1. Force
 
 ### Volume
-
 1. Bounding box
 1. Bounding circle
 1. Bounding sphere
 
 ### Structures
-
 1. Scene
 1. Group
 1. Graph
 
 ### Geometry
-
 1. Point
 1. Line
 1. Line segments
@@ -41,12 +38,10 @@ Here are a couple of useful terms that you should know and use during graphics p
 1. Dimension
 
 ### Curves
-
 1. Bezier
 1. Cubic
 
 ### Other
-
 1. Pre-process
 1. Post-process
 1. Render

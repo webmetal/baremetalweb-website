@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="686b1fa5-a3f7-4d4b-8594-9d00e6085551" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/chevron_left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/chevron_right.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/articles/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/articles/articles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/articles/articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/articles/articles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/articles/articles.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/articles/articles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/binding/binding-expressions.md" beforeDir="false" afterPath="$PROJECT_DIR$/articles/binding/binding-expressions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/binding/delegate-examples.md" beforeDir="false" afterPath="$PROJECT_DIR$/articles/binding/delegate-examples.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/practices/convention-over-code.md" beforeDir="false" afterPath="$PROJECT_DIR$/articles/practices/convention-over-code.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/practices/factory-pattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/articles/practices/factory-pattern.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/practices/graphics-terms.md" beforeDir="false" afterPath="$PROJECT_DIR$/articles/practices/graphics-terms.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/practices/vocabulary.md" beforeDir="false" afterPath="$PROJECT_DIR$/articles/practices/vocabulary.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/technologies/keep-eye-on.md" beforeDir="false" afterPath="$PROJECT_DIR$/articles/technologies/keep-eye-on.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view-md/view-md.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view-md/view-md.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,26 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/styles/menu.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -66,11 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lib/binding/clean.js" />
-        <option value="$PROJECT_DIR$/src/lib/binding/providers/base-provider.js" />
-        <option value="$PROJECT_DIR$/articles/practices/general-principles.md" />
-        <option value="$PROJECT_DIR$/articles/practices/review-checklist.md" />
-        <option value="$PROJECT_DIR$/src/lib/binding/binding-manager.js" />
         <option value="$PROJECT_DIR$/src/view-loader/view-loader.js" />
         <option value="$PROJECT_DIR$/src/web-gl/web-gl.html" />
         <option value="$PROJECT_DIR$/src/web-gl/web-gl.js" />
@@ -82,8 +65,6 @@
         <option value="$PROJECT_DIR$/src/lib/binding/providers/binding-provider.js" />
         <option value="$PROJECT_DIR$/src/monaco-editor/monaco-loader.js" />
         <option value="$PROJECT_DIR$/src/monaco-editor/monaco-editor.js" />
-        <option value="$PROJECT_DIR$/articles/technologies/keep-eye-on.md" />
-        <option value="$PROJECT_DIR$/articles/practices/vocabulary.md" />
         <option value="$PROJECT_DIR$/src/radio-menu/radio-menu.html" />
         <option value="$PROJECT_DIR$/src/lib/utils/path-utils.js" />
         <option value="$PROJECT_DIR$/styles/components/code-editor.css" />
@@ -101,7 +82,6 @@
         <option value="$PROJECT_DIR$/styles/group.css" />
         <option value="$PROJECT_DIR$/styles/styles.css" />
         <option value="$PROJECT_DIR$/styles/input.css" />
-        <option value="$PROJECT_DIR$/src/view-md/view-md.js" />
         <option value="$PROJECT_DIR$/styles/views/tools.css" />
         <option value="$PROJECT_DIR$/styles/views/articles.css" />
         <option value="$PROJECT_DIR$/src/lib/binding/providers/list-provider.js" />
@@ -109,14 +89,22 @@
         <option value="$PROJECT_DIR$/src/lib/binding/behaviours/base-behaviour.js" />
         <option value="$PROJECT_DIR$/src/lib/binding/binding-behaviour-factory.js" />
         <option value="$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js" />
-        <option value="$PROJECT_DIR$/app/articles/articles.js" />
         <option value="$PROJECT_DIR$/app/tools/tools.html" />
         <option value="$PROJECT_DIR$/styles/lib.css" />
-        <option value="$PROJECT_DIR$/app/articles/articles.html" />
         <option value="$PROJECT_DIR$/styles/views/view.css" />
-        <option value="$PROJECT_DIR$/app/articles/articles.json" />
         <option value="$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js" />
         <option value="$PROJECT_DIR$/styles/menu.css" />
+        <option value="$PROJECT_DIR$/app/articles/articles.js" />
+        <option value="$PROJECT_DIR$/app/articles/articles.html" />
+        <option value="$PROJECT_DIR$/app/articles/articles.json" />
+        <option value="$PROJECT_DIR$/src/view-md/view-md.js" />
+        <option value="$PROJECT_DIR$/articles/binding/delegate-examples.md" />
+        <option value="$PROJECT_DIR$/articles/binding/binding-expressions.md" />
+        <option value="$PROJECT_DIR$/articles/practices/convention-over-code.md" />
+        <option value="$PROJECT_DIR$/articles/practices/factory-pattern.md" />
+        <option value="$PROJECT_DIR$/articles/practices/graphics-terms.md" />
+        <option value="$PROJECT_DIR$/articles/practices/vocabulary.md" />
+        <option value="$PROJECT_DIR$/articles/technologies/keep-eye-on.md" />
       </list>
     </option>
   </component>
@@ -142,38 +130,47 @@
             <path>
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
               <item name="binding" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="binding" type="462c0819:PsiDirectoryNode" />
-              <item name="behaviours" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+              <item name="practices" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+              <item name="technologies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view-md" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,21 +288,7 @@
       <workItem from="1566541222088" duration="305000" />
       <workItem from="1566542163532" duration="19915000" />
       <workItem from="1566581125812" duration="18751000" />
-      <workItem from="1566628153586" duration="2404000" />
-    </task>
-    <task id="LOCAL-00042" summary="added contextualizes function for expression parsing">
-      <created>1565002397344</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1565002397344</updated>
-    </task>
-    <task id="LOCAL-00043" summary="added comments">
-      <created>1565002947487</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1565002947487</updated>
+      <workItem from="1566628153586" duration="8120000" />
     </task>
     <task id="LOCAL-00044" summary="added comments">
       <created>1565196367296</created>
@@ -636,11 +619,25 @@
       <option name="project" value="LOCAL" />
       <updated>1566599573211</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="menu behaviour update">
+      <created>1566630599986</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1566630599987</updated>
+    </task>
+    <task id="LOCAL-00092" summary="menu behaviour update">
+      <created>1566630709117</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1566630709117</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243296000" />
+    <option name="totallyTimeSpent" value="249012000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -653,9 +650,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="712" y="0" width="1215" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25488532" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26508072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -666,8 +662,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.25054705" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21444201" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.25054705" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21444201" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -762,47 +758,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="menu behaviour update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/monaco-editor/monaco-loader.js" />
-    <entry file="file://$PROJECT_DIR$/src/monaco-editor/monaco-editor.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/monaco-editor/min/vs/loader.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/monaco-editor/min/vs/editor/editor.main.nls.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/monaco-editor/min/vs/editor/editor.main.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/monaco-editor/dev/vs/loader.js" />
-    <entry file="file://$PROJECT_DIR$/articles/technologies/keep-eye-on.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="119">
-            <caret line="7" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/articles/practices/vocabulary.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="289">
-            <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-            <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/android-icon-48x48.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/radio-menu/radio-menu.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/radio-menu/radio-menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/utils/path-utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -917,13 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view-md/view-md.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1016,13 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/articles/articles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/tools/tools.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1044,22 +985,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/articles/articles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/articles/articles.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-451">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/chevron_left.svg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1068,10 +1002,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/menu.css">
+    <entry file="file://$PROJECT_DIR$/app/articles/articles.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state relative-caret-position="323">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/articles/articles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view-md/view-md.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/articles/articles.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/binding/delegate-examples.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-365">
+            <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/binding/binding-expressions.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="374">
+            <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/practices/convention-over-code.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="383">
+            <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/practices/dom-updates.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-110" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/practices/factory-pattern.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="128">
+            <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/practices/general-principles.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/practices/graphics-performance.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/practices/graphics-terms.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="383">
+            <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/practices/memory-efficient-options.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/practices/review-checklist.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/technologies/keep-eye-on.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="102">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/practices/vocabulary.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1980">
+            <caret column="9" selection-start-column="9" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

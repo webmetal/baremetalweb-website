@@ -6,6 +6,7 @@ That is all a factory does.
 In this example we will use a factory and convention over code.
 
 Let ssy I am writing a binding engine where I can have different binding expressions.
+
 ```html
 <ul items.bind="model.collection" click.delegate="selectItem"></ul>
 ```
@@ -22,7 +23,7 @@ We will use the attribute name parts as the convention.
 Getting the attributes from the element you need a way to create the appropriate provider.  
 Keep in mind that in future you may want to extend this to include other providers.
 
-Consider the following code:
+### Consider the following code:
 ```js
 function parseAttribute(attr, callback) {
     const parts = attr.name.split(".");
@@ -57,8 +58,7 @@ The core principals here are:
 1. Making the factory functions static eliminates the requirement of having a factory instance but allowing us to execute a convention pattern.
 1. If you want to support a new provider type, just add the function to the factory and you are off.
 
-Here is a more practical example:
-
+### Here is a more practical example:
 ```js
 class BindingProviderFactory {
     static async get(type) {

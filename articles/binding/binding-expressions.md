@@ -15,12 +15,12 @@ The bind and inflate operations are often used on an attribute.
 
 You can use binding and inflation on the innerText also.
 
-Bind expression:
+###Bind expression:
 ```html
 <div>${data.field1}</div>
 ```
 
-Inflate expression:
+###Inflate expression:
 ```html
 <div>#data.field1</div>
 ```

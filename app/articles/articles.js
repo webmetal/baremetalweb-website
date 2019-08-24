@@ -1,5 +1,7 @@
 import {ViewBase} from "./../view-base.js";
 
+import "./../../src/view-md/view-md.js";
+
 export default class Articles extends ViewBase {
     get articles() {
         return this.getProperty("articles", () => []);
@@ -7,6 +9,14 @@ export default class Articles extends ViewBase {
 
     set articles(newValue) {
         this.setProperty("articles", newValue);
+    }
+
+    get article() {
+        return this._article || this.getAttribute("article") || null;
+    }
+
+    set article(newValue) {
+        this._article = newValue;
     }
 
     async connectedCallback() {
@@ -19,7 +29,7 @@ export default class Articles extends ViewBase {
         this.notifyPropertyChanged("items", this.items);
     }
 
-    handleMenuClick(event) {
-        console.log(event);
+    handleMenuClick(item) {
+        this.article = item.path;
     }
 }

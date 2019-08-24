@@ -31,7 +31,6 @@ const context = {
 Call the doSomething function on the binding context with the click event as a parameter.
 
 ## Delegate with a field value as parameter
-
 ```html
 <button click.delegate="doSomething(${data.firstName})">Get First Name</button>
 ```

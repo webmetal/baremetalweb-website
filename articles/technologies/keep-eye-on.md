@@ -1,5 +1,4 @@
 # These are technologies to keep an eye on
-
 1. animation-worklet
 
 ## Animation Worklet
