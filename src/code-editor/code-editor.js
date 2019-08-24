@@ -5,7 +5,8 @@ import "./ace/ext-language_tools.js";
 
 class CodeEditor extends HTMLElement {
     get language() {
-        return this._language || this.getAttribute("language") || "javascript";
+        const result = this._language || this.getAttribute("language") || "javascript";
+        return result.replace("js", "javascript");
     }
 
     set language(newValue) {
@@ -20,8 +21,16 @@ class CodeEditor extends HTMLElement {
         this.editor.setValue(newValue, -1);
     }
 
+    get readOnly() {
+        return this._readOnly || this.getAttribute("readonly") == "true";
+    }
+
+    set readOnly(newValue) {
+        this._readOnly = newValue;
+    }
+
     async connectedCallback() {
-        const code = this.innerText;
+        const code = this.innerHTML;
         this.innerHTML = await fetch(import.meta.url.replace(".js", ".html")).then(result => result.text());
 
         setTimeout(() => {
@@ -38,7 +47,11 @@ class CodeEditor extends HTMLElement {
             this.editor.setOptions({
                 enableBasicAutocompletion: true,
                 enableSnippets: true,
-                enableLiveAutocompletion: true
+                enableLiveAutocompletion: true,
+                readOnly: this.readOnly,
+                hScrollBarAlwaysVisible: !this.readOnly,
+                vScrollBarAlwaysVisible: !this.readOnly,
+                highlightActiveLine: !this.readOnly
             });
 
             this.value = code;

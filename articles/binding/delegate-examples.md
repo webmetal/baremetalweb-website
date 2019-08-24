@@ -72,7 +72,7 @@ In this case we send a number as argument and expect it to be of type Number whe
 ## Delegate on a path
 
 ```html
-<button click.delegate="data.greet('hello world')";
+<button click.delegate="data.greet('hello world')"></button>
 ```
 
 ```js

@@ -6,3 +6,8 @@ code-editor, code-editor #editor {
     bottom: 0;
     left: 0;
 }
+
+.code-container {
+    display: block;
+    position: relative;
+}

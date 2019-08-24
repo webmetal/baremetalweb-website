@@ -94,7 +94,31 @@ export class ViewMD extends HTMLElement {
     }
 
     async _processCode() {
+        const editor = document.createElement("code-editor");
+        editor.setAttribute("readonly", true);
 
+        let line = this.array[this.index];
+        editor.setAttribute("language", line.replace("```", "").trim());
+
+        this.index++;
+        line = this.array[this.index];
+
+        let lineCount = 1;
+
+        while (line.trim() != '```') {
+            lineCount++;
+            editor.innerHTML += line;
+
+            this.index++;
+            line = this.array[this.index];
+        }
+
+        const div = document.createElement("div");
+        div.dataset.lineCount = lineCount;
+        div.appendChild(editor);
+        div.classList.add("code-container");
+        div.style.height = `${lineCount * 14}px`;
+        this.fragment.appendChild(div);
     }
 }
 
