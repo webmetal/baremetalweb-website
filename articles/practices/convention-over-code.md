@@ -1,6 +1,7 @@
 # Convention over code
 
-## Introduction
+## Introduction  
+
 This is a coding strategy that has a lot of benefits too it and should be strongly considered by anyone writing code regardless of platform.
 Some of it's benefits include:
 
@@ -18,10 +19,12 @@ Conventions can include:
 1. Object availability
 
 ## Example
+
 Let us use a example to demonstrate this principle.
 I want to load an image based on a type.
 
 ### Given this object structure:
+
 ```js
 const folder = {
     type: "folder"
@@ -37,6 +40,7 @@ You will often notice how conventions eliminate the requirement for if and case 
 Less conditional evaluations means faster code, specially when dealing with large numbers of iterations.
 
 ###Consider this function
+
 ```js
 function loadIcon(obj) {
     const file = `/images/icons/${obj.type || 'file'}.svg`;
@@ -57,10 +61,12 @@ Using these conventions simplifies the calling code and there is no additional w
 This not only limits the number of lines of code you need to write but also future proofs for any type you may need.
 
 ## Conclusion
+
 It is important to always consider proper conventions when writing your code.
 These conventions should be part of your development standards enforced during code reviews.
 
 ### Less code means:
+
 1. Less bytes to download
 1. Less parsing that is required
 1. Faster compilation times in the browser

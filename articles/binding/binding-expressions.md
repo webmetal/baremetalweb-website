@@ -1,4 +1,5 @@
 # Binding
+
 For this context of this article and for that matter this site, biding refers to combining data and UI in a meaningful way.
 There are a number of binding expressions we will use:
 
@@ -16,11 +17,13 @@ The bind and inflate operations are often used on an attribute.
 You can use binding and inflation on the innerText also.
 
 ###Bind expression:
+
 ```html
 <div>${data.field1}</div>
 ```
 
 ###Inflate expression:
+
 ```html
 <div>#data.field1</div>
 ```
@@ -34,6 +37,7 @@ A path is the location of the data relevant for the binding relative the the bin
 A expression is a composite between data and text. See the expression part for more detail.
 
 ## Expressions
+
 Expressions follow the string literal syntax "${}".  
 They can be part of an inflate or bind operation.  
 The expressions between the ${} define where to get data.
@@ -58,6 +62,7 @@ Expressions can contain javascript functions.
 ```
 
 ## Inflate
+
 Some people call this a once only binding.
 
 Inflate is the simples of the operations.
@@ -66,6 +71,7 @@ Once this happens nothing else changes.
 If the value changes the UI will not be updated.
 
 ## Bind
+
 Binding is more expensive as observers are set up.
 If the data changes the UI is updated to represent those changes.
 If the binding is a expression, the full expression is rebuild.
@@ -75,6 +81,7 @@ If you did want to maintain state, you need to use a dataset as your data struct
 The dataset class has build in features to allow state management.
 
 ## Delegate
+
 A delegate binds a event to an function on the context or path starting with the context.
 There are a number of different delegate expressions you can use to pass data to an event callback.
 

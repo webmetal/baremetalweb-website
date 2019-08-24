@@ -1,4 +1,5 @@
 # Factories
+
 In this section we will be looking at factories.  
 In code as in real life, factories are responsible for creating objects.
 That is all a factory does.
@@ -24,6 +25,7 @@ Getting the attributes from the element you need a way to create the appropriate
 Keep in mind that in future you may want to extend this to include other providers.
 
 ### Consider the following code:
+
 ```js
 function parseAttribute(attr, callback) {
     const parts = attr.name.split(".");
@@ -59,6 +61,7 @@ The core principals here are:
 1. If you want to support a new provider type, just add the function to the factory and you are off.
 
 ### Here is a more practical example:
+
 ```js
 class BindingProviderFactory {
     static async get(type) {
@@ -88,6 +91,7 @@ async function doSomething() {
 ```
 
 ## Conclusion
+
 Factories is a very useful pattern that can eliminate a lot of complexity in your code.
 Though the examples above are fairly simple factories, they can be complex in nature.
 Using proper conventions can reduce a lot of that complexity and  make your code scale better.

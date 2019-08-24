@@ -1,6 +1,7 @@
 # Graphics performance
 
 ## Data structures
+
 Data structures are used to organise your scene data.  
 This allows you to easily query for objects in the vicinity.
 This can be used for both visibility detection and also collections.
@@ -11,6 +12,7 @@ It is not limited to these features the they are the most common.
 1. Octree
 
 ## Culling
+
 Don't draw what you can't see.  
 The following are common culling algorithms used to determine if something should be drawn. 
 

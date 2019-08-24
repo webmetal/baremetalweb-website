@@ -49,7 +49,7 @@ export class ViewMD extends HTMLElement {
         if (line[0] == "#") {
             await this._processHeader();
         }
-        else if (line.indexOf("\n") == 0) {
+        else if (line.indexOf("\n") == 1) {
             this.fragment.appendChild(document.createElement("br"));
         }
         else if (line.indexOf("1.") == 0) {

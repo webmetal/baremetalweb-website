@@ -2,6 +2,7 @@
 This is just a example list with short descriptions on delegate syntax.
 
 ## Simple delegate
+
 ```html
 <button click.delegate="doSomething">Do Something</button>
 ```
@@ -17,6 +18,7 @@ const context = {
 Call the doSomething function on the binding context without any parameters
 
 ##  Delegate with event attribute
+
 ```html
 <button click.delegate="doSomething($event)">Do Something</button>
 ```
@@ -31,6 +33,7 @@ const context = {
 Call the doSomething function on the binding context with the click event as a parameter.
 
 ## Delegate with a field value as parameter
+
 ```html
 <button click.delegate="doSomething(${data.firstName})">Get First Name</button>
 ```

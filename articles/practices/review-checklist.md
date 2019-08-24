@@ -1,8 +1,10 @@
 # Review checklist
+
 Reviews are important parts of the development lifecycle.  
 This is a checklist for developer reviews ensuring that what is written is good quality.
 
 ## Checklist
+
 1. Does the feature work
 1. Was the right patterns and practices followed.
 1. Does the naming make sense and follows the company naming convention.
