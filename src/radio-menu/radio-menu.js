@@ -1,3 +1,5 @@
+import {getHashParts} from "./../lib/utils/path-utils.js";
+
 class RadioMenu extends HTMLElement {
     get marker() {
         if (this._marker == null) {
@@ -34,8 +36,10 @@ class RadioMenu extends HTMLElement {
         this.hashChangedHandler = null;
     }
 
-    click(event) {
-        location.replace(`#${event.target.dataset.page}`);
+    click(event, replace = true) {
+        if (replace) {
+            location.replace(`#${event.target.dataset.page}`);
+        }
 
         let width = getComputedStyle(this).getPropertyValue('--item-width');
         width = Number(width.substr(0, width.length -2));
@@ -44,10 +48,11 @@ class RadioMenu extends HTMLElement {
     }
 
     _hashChanged() {
-        const element = this.querySelector(`[data-page="${location.hash.replace("#", "")}"]`);
+        const name = getHashParts().name;
+        const element = this.querySelector(`[data-page="${name.replace("#", "")}"]`);
 
         setTimeout(() => {
-            this.click({target: element});
+            this.click({target: element}, false);
         }, 10);
     }
 }
