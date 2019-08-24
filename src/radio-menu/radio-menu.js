@@ -19,11 +19,19 @@ class RadioMenu extends HTMLElement {
         if (location.hash.length == 0) {
             location.replace("#home");
         }
+
+
+        this.hashChangedHandler = this._hashChanged.bind(this);
+        this._hashChanged();
+
+        window.addEventListener("hashchange", this.hashChangedHandler);
     }
 
     disconnectedCallback() {
         this.removeEventListener("click", this.clickHandler);
         this.marker = null;
+        window.removeEventListener("hashchange", this.hashChangedHandler);
+        this.hashChangedHandler = null;
     }
 
     click(event) {
@@ -33,6 +41,14 @@ class RadioMenu extends HTMLElement {
         width = Number(width.substr(0, width.length -2));
 
         this.marker.style.transform = `translateX(${width * event.target.dataset.dx}px)`;
+    }
+
+    _hashChanged() {
+        const element = this.querySelector(`[data-page="${location.hash.replace("#", "")}"]`);
+
+        setTimeout(() => {
+            this.click({target: element});
+        }, 10);
     }
 }
 
