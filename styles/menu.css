@@ -30,6 +30,10 @@ li[role="menuitem"].back {
     align-items: center;
 }
 
+li[role="menuitem"].back * {
+    pointer-events: none;
+}
+
 li[role="menuitem"].back:hover {
     fill: var(--cl-focus);
 }
