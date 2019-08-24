@@ -4,7 +4,7 @@
 
 <div class="toolbar">
     <label for="name">Name</label>
-    <input id="name" placeholder="component-name" autofocus value.bind="componentName" placeholder="component-name"/>
+    <input id="name" placeholder="component-name" autofocus value.bind="componentName" placeholder="component-name" keyup.delegate="genKey($event)"/>
     <button id="btnGenerate" click.delegate="generate">Generate</button>
 </div>
 

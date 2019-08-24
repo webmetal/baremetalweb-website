@@ -4,6 +4,8 @@ input, input:focus {
     outline: none;
     border: none;
     border-bottom: var(--cl-back-c) solid 1px;
+    height: 1.5rem;
+    padding-left: 0.5rem;
 }
 
 input:focus {

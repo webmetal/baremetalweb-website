@@ -35,6 +35,11 @@ class WebGLComponent extends HTMLElement
 
         this.codeJS = result[tp.js];
     }
+    async genKey(event) {
+        if (event.code == "Enter") {
+            this.generate();
+        }
+    }
 }
 
 customElements.define("webgl-component", WebGLComponent);

@@ -61,6 +61,12 @@ class CodeGen extends HTMLElement {
         this.codeHTML = result[tp.html];
         this.codeCSS = result[tp.css];
     }
+
+    async genKey(event) {
+        if (event.code == "Enter") {
+            this.generate();
+        }
+    }
 }
 
 customElements.define("code-gen", CodeGen);
