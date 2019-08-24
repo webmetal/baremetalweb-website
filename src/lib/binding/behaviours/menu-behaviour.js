@@ -77,12 +77,31 @@ export class MenuBehaviour extends BaseBehaviour {
         return li;
     }
 
+    async _createBackItem() {
+        const li = document.createElement("li");
+        li.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/><path d="M0 0h24v24H0z" fill="none"/></svg><span>Back</span>`;
+        li.setAttribute("role", "menuitem");
+        li.setAttribute("data-path", "-1");
+        li.classList.add("back");
+
+
+        return li;
+    }
+
     async _click(event) {
         const target = event.target;
+        if (target.nodeName == "UL") return;
+
         const path = target.dataset.path;
+
+        if (path == "-1") {
+            return this._renderItems(this.items);
+        }
+
         if (target.dataset.count && target.dataset.count > 0) {
             const result = await this._itemsOnPath(path, this.items);
-            return this._renderItems(result);
+            const back = await this._createBackItem();
+            return this._renderItems(result, back);
         }
 
         const result = await this._itemsOnPath(path, this.items);

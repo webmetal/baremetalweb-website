@@ -24,6 +24,17 @@ li[role="menuitem"].parent:after {
     border-left: var(--cl-back-c) solid 1px;
 }
 
+li[role="menuitem"].back {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li[role="menuitem"].back:hover {
+    fill: var(--cl-focus);
+}
+
+
 li[role="menuitem"]:hover {
     background: var(--cl-back-b);
     color: var(--cl-back-c);

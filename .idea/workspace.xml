@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="686b1fa5-a3f7-4d4b-8594-9d00e6085551" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/chevron_left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/chevron_right.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/articles/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/articles/articles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/articles/articles.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/articles/articles.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/views/view.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/views/view.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/menu.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,21 +15,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="97" column="20" lean-forward="true" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
+            <state relative-caret-position="228">
+              <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/articles/articles.json">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/menu.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-451">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="561">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -111,12 +111,12 @@
         <option value="$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js" />
         <option value="$PROJECT_DIR$/app/articles/articles.js" />
         <option value="$PROJECT_DIR$/app/tools/tools.html" />
-        <option value="$PROJECT_DIR$/styles/menu.css" />
         <option value="$PROJECT_DIR$/styles/lib.css" />
         <option value="$PROJECT_DIR$/app/articles/articles.html" />
         <option value="$PROJECT_DIR$/styles/views/view.css" />
         <option value="$PROJECT_DIR$/app/articles/articles.json" />
         <option value="$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js" />
+        <option value="$PROJECT_DIR$/styles/menu.css" />
       </list>
     </option>
   </component>
@@ -132,7 +132,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,13 +142,7 @@
             <path>
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="articles" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
@@ -182,16 +175,11 @@
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,14 +290,8 @@
       <workItem from="1566484789241" duration="26000" />
       <workItem from="1566541222088" duration="305000" />
       <workItem from="1566542163532" duration="19915000" />
-      <workItem from="1566581125812" duration="18037000" />
-    </task>
-    <task id="LOCAL-00041" summary="added documentation">
-      <created>1564998575980</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1564998575980</updated>
+      <workItem from="1566581125812" duration="18751000" />
+      <workItem from="1566628153586" duration="2404000" />
     </task>
     <task id="LOCAL-00042" summary="added contextualizes function for expression parsing">
       <created>1565002397344</created>
@@ -647,11 +629,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566591262043</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="menu behaviour update">
+      <created>1566599573211</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1566599573211</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240178000" />
+    <option name="totallyTimeSpent" value="243296000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -666,7 +655,7 @@
     <frame x="712" y="0" width="1215" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25488532" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25488532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -677,8 +666,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.25054705" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21444201" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.25054705" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21444201" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -745,7 +734,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="added contextualizes function for expression parsing" />
     <MESSAGE value="added comments" />
     <MESSAGE value="updated flow diagram svg" />
     <MESSAGE value="template inflation" />
@@ -770,10 +758,10 @@
     <MESSAGE value="style changes" />
     <MESSAGE value="menu" />
     <MESSAGE value="menu style" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu style" />
+    <MESSAGE value="menu behaviour update" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu behaviour update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/monaco-editor/esm/vs/editor/editor.all.js" />
     <entry file="file://$PROJECT_DIR$/src/monaco-editor/monaco-loader.js" />
     <entry file="file://$PROJECT_DIR$/src/monaco-editor/monaco-editor.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/monaco-editor/min/vs/loader.js" />
@@ -957,13 +945,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/list-provider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/list-provider.js" />
     <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/binding-provider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1041,13 +1023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/tools/tools.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1083,10 +1058,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/chevron_left.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="97" column="20" lean-forward="true" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
+        <state relative-caret-position="228">
+          <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
         </state>
       </provider>
     </entry>
