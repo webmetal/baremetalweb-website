@@ -1,3 +1,5 @@
+import {createCodeGroup} from "./code-group.js";
+
 export class ViewMD extends HTMLElement {
     get article() {
         return this._article || this.getAttribute("article");
@@ -13,10 +15,6 @@ export class ViewMD extends HTMLElement {
         this._loadArticle();
     }
 
-    disconnectedCallback() {
-
-    }
-
     _loadArticle() {
         const article = this.article;
         if (article == null) return;
@@ -29,66 +27,74 @@ export class ViewMD extends HTMLElement {
             .catch(error => console.error(error));
     }
 
-    _processMd(text) {
-        const array = text.match(/^.*((\r\n|\n|\r)|$)/gm);
-        const fragment = document.createDocumentFragment();
-        const callback = (element) => fragment.appendChild(element);
+    async _processMd(text) {
+        this.array = text.match(/^.*((\r\n|\n|\r)|$)/gm);
+        this.index = 0;
 
-        for (let i = 0; i < array.length; i++) {
-            this._processLine(array, i, callback);
-        }
+        this.fragment = document.createDocumentFragment();
 
-        this.appendChild(fragment);
+        await this._process();
+
+        this.appendChild(this.fragment);
+
+        this.fragment = null;
+        this.array = null;
+        this.index = null;
+        this.callback = null;
     }
 
-    _processLine(array, line, callback) {
-        const text = array[line].trim();
+    async _process() {
+        const line = this.array[this.index];
 
-        if (text.length == 0 && this.batch != null) {
-            callback(this.batch);
-            this.batch = null;
-            return;
+        if (line[0] == "#") {
+            await this._processHeader();
         }
-
-        if (this[text[0]] != null) {
-            this[text[0]](text, callback);
+        else if (line.indexOf("\n") == 0) {
+            this.fragment.appendChild(document.createElement("br"));
+        }
+        else if (line.indexOf("1.") == 0) {
+            await this._processList();
+        }
+        else if (line.indexOf("```") == 0) {
+            await this._processCode();
         }
         else {
-            this["p"](text)
+            const div = document.createElement("div");
+            div.innerText = line.trim();
+            this.fragment.appendChild(div);
+        }
+
+        if (this.index < this.array.length -1) {
+            this.index++;
+            await this._process();
         }
     }
 
-    "#"(text, callback) {
-        const count = (text.match(/#/g) || []).length;
+    async _processHeader() {
+        const line = this.array[this.index];
+        const count = (line.match(/#/g) || []).length;
         const element = document.createElement(`h${count}`);
-        element.innerText = text.split("#").join("");
-        callback(element);
+        element.innerText = line.split("#").join("");
+        this.fragment.appendChild(element);
     }
 
-    "`"(text) {
-        if (this.batch == null) {
-            this.batch = document.createElement("pre");
+    async _processList() {
+        const ul = document.createElement("ul");
+
+        let line = this.array[this.index];
+        while (line && line.indexOf("1.") == 0) {
+            const li = document.createElement("li");
+            li.innerText = line.replace("1.", "");
+            ul.appendChild(li);
+            this.index++;
+            line = this.array[this.index];
         }
 
-        this.batch.innerText += `${text}\n`;
+        this.fragment.appendChild(ul);
     }
 
-    "1"(text) {
-        if (this.batch == null) {
-            this.batch = document.createElement("ul");
-        }
+    async _processCode() {
 
-        const li = document.createElement("li");
-        li.innerText = text.replace("1.", "");
-        this.batch.appendChild(li);
-    }
-
-    "p"(text) {
-        if (this.batch == null) {
-            this.batch = document.createElement("p");
-        }
-
-        this.batch.innerText += `${text}\n`
     }
 }
 

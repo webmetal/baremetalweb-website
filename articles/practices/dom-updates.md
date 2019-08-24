@@ -22,17 +22,17 @@ This subject is about dom updates and making them performant.
 1. When performing cleanup do so on idle time as the GC can cause frame drop.
 
 ## Tasks
-Tasks are defined using setTimeout(...)
-Tasks execute in the thread one after another.
+Tasks are defined using setTimeout(...).   
+Tasks execute in the thread one after another.   
 They are the best way to make updates in a changing environment like scrolling.
 
 ## Micro tasks
-Micro tasks are defined as Promise.resolve().then(...)
+Micro tasks are defined as Promise.resolve().then(...).
 Micro tasks will execute before the next task in queue will fire.
 They are generally faster and with less overhead but will lock the thread until they are done.
 
 ## Animation Frames
-Animation frames are defined as requesetAnimationFrame(...)  
+Animation frames are defined as requesetAnimationFrame(...).  
 They are often used when looping and updating drawing.  
 Request animation frames is no garantee that you will not lock the thread as it will execute in a single task for it's duration.  
 Request animation frame is more efficient and optimised in looping than setTimeout or setInterval

@@ -1,0 +1,31 @@
+view-md {
+    padding: 0.5rem;
+}
+
+view-md h1, view-md h2, view-md h3 {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+view-md h1 {
+    font-size: 1.5rem;
+    border-bottom: var(--cl-back-b) solid 1px;
+    padding-bottom: 1rem;
+}
+
+view-md h2 {
+    font-size: 1.3rem;
+}
+
+view-md h3 {
+    font-size: 1rem;
+}
+
+view-md ul {
+    list-style-type: decimal;
+}
+
+view-md li {
+    padding: 0.25rem 0 0.25rem 0;
+}

@@ -6,7 +6,7 @@ Bitmask uses binary to define if an option is (on / present) or not.
 Because of it's efficiency bitmasks are often used in graphics pipelines to turn features on and off.  
 Other pipelines can also make use bitmasks for the same benefits.  
 
-# Numbering
+## Numbering
 
 Bitmasks use geometric sequences numbering for each option.
 

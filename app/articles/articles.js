@@ -1,6 +1,7 @@
 import {ViewBase} from "./../view-base.js";
 
 import "./../../src/view-md/view-md.js";
+import "./../../src/code-editor/code-editor.js";
 
 export default class Articles extends ViewBase {
     get articles() {

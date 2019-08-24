@@ -21,6 +21,7 @@ class CodeEditor extends HTMLElement {
     }
 
     async connectedCallback() {
+        const code = this.innerText;
         this.innerHTML = await fetch(import.meta.url.replace(".js", ".html")).then(result => result.text());
 
         setTimeout(() => {
@@ -39,6 +40,8 @@ class CodeEditor extends HTMLElement {
                 enableSnippets: true,
                 enableLiveAutocompletion: true
             });
+
+            this.value = code;
         }, 10)
     }
 }
