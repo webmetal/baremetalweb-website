@@ -64,6 +64,11 @@
           "id": "1.7",
           "title": "Vocabulary",
           "path": "practices/vocabulary.md"
+        },
+        {
+          "id": "1.8",
+          "title": "Custom Element vs Behaviours",
+          "path": "practices/custom-element-vs-behaviour.md"
         }
       ]
     },
