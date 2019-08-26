@@ -113,3 +113,21 @@ const mesh = new THREE.Mesh(geometry, material) ;
 
 scene.add(mesh);
 ```
+
+##Diamond
+
+A diamond is a fairly simple object and you can easily draw it using BufferGeometry.
+Drawing it with a shape is easier though but will cost you on resources and performance.
+
+```js
+function diamond(r) {
+    const shape = new THREE.Shape();
+
+    shape.moveTo(0, r);
+    shape.lineTo(r, 0);
+    shape.lineTo(0, -r);
+    shape.lineTo(-r, 0);
+
+    return shape;
+}
+```
