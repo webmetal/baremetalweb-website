@@ -82,6 +82,17 @@
           "path": "technologies/keep-eye-on.md"
         }
       ]
+    },
+    {
+      "id": "3",
+      "title": "ThreeJs",
+      "articles": [
+        {
+          "id": "3.0",
+          "title": "Setup",
+          "path": "threejs/setup.md"
+        }
+      ]
     }
   ]
 }

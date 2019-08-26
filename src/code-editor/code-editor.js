@@ -18,7 +18,7 @@ class CodeEditor extends HTMLElement {
     }
 
     set value(newValue) {
-        this.editor.setValue(newValue, -1);
+        this.editor.setValue(this.sanitizse(newValue), -1);
     }
 
     get readOnly() {
@@ -56,6 +56,10 @@ class CodeEditor extends HTMLElement {
 
             this.value = code;
         }, 10)
+    }
+
+    sanitizse(text) {
+        return text.replace("&gt;", ">");
     }
 }
 
