@@ -6,11 +6,16 @@
       "articles": [
         {
           "id": "0.0",
+          "title": "Introduction",
+          "path": "binding/introduction.md"
+        },
+        {
+          "id": "0.1",
           "title": "Binding expressions",
           "path": "binding/binding-expressions.md"
         },
         {
-          "id": "0.1",
+          "id": "0.2",
           "title": "Delegate examples",
           "path": "binding/delegate-examples.md"
         }
@@ -96,6 +101,11 @@
           "id": "3.1",
           "title": "Orthographic camera",
           "path": "threejs/orthographic-camera.md"
+        },
+        {
+          "id": "3.2",
+          "title": "Basic 2d shapes",
+          "path": "threejs/2d-shapes.md"
         }
       ]
     }
