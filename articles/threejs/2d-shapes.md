@@ -131,3 +131,58 @@ function diamond(r) {
     return shape;
 }
 ```
+
+##Circles and semi circles
+
+There are two functions you can use:
+
+1. arc
+1. absarc
+
+I suggest you use absarc because the results are more predictable.
+This does not mean you can ignore arc, it has it's uses but you need to be careful when using it as it is "less forgiving" when combined with moveTo and lineTo.
+There is one catch you need to keep in mind.
+
+1. Direction matters, counter clock for positive values, clock for negative.
+1. When working in degrees, you need to convert them to radians first.
+1. 0 degrees is at the center right position moving counter clock wise thus 90 deg is top center.
+1. If you want to draw a circle set the from angle to 0 and the to angle as Math.PI * 2.
+
+##Smoothing out your shape
+
+Lets say you are using a arc and drawing a circle, by default it will look a bit rough.
+
+```js
+function createCircle(radius, scene) {
+    const shape = new THREE.Shape();
+    shape.absarc(0, 0, radius, 0, 2 * Math.PI);
+    const points = shape.getPoints();
+    const geoPoints = new THREE.BufferGeometry().setFromPoints(points);
+    const line = new THREE.Line(geoPoints, new THREE.LineBasicMaterial({color: 0xff0000}));
+    scene.add(line);
+}
+```
+
+The following code you can use to either make it smoother or make other circular type shapes.
+
+```js
+function createCircle(radius, scene, divisions) {
+    const shape = new THREE.Shape();
+    shape.absarc(0, 0, radius, 0, 2 * Math.PI);
+    const points = shape.getPoints(divisions);
+    const geoPoints = new THREE.BufferGeometry().setFromPoints(points);
+    const line = new THREE.Line(geoPoints, new THREE.LineBasicMaterial({color: 0xff0000}));
+    scene.add(line);
+}
+```
+
+By changing the divisions you can manipulate the shape of the circle.
+
+Please note that this is only really needed depending on the size of the curve / circle.
+If the shape is small, you may get away with using less divisions for the +- same pixel result.
+You may want to consider adding a LOD logic in your circle / curve function that will vary the division depending on the size.
+The larger the shape, you will need more divisions for smoother edges.
+
+## Border vs Fill
+
+border width?

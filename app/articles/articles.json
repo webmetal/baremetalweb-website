@@ -108,6 +108,17 @@
           "path": "threejs/2d-shapes.md"
         }
       ]
+    },
+    {
+      "id": "4",
+      "title": "Math",
+      "articles": [
+        {
+          "id": "4.0",
+          "title": "Basics",
+          "path": "math/basics.md"
+        }
+      ]
     }
   ]
 }

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="686b1fa5-a3f7-4d4b-8594-9d00e6085551" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/articles/math/basics.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/articles/threejs/todo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/articles/articles.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/articles/articles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/practices/graphics-terms.md" beforeDir="false" afterPath="$PROJECT_DIR$/articles/practices/graphics-terms.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/articles/threejs/2d-shapes.md" beforeDir="false" afterPath="$PROJECT_DIR$/articles/threejs/2d-shapes.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,13 +16,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/articles/threejs/2d-shapes.md">
+        <entry file="file://$PROJECT_DIR$/articles/math/basics.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="387">
-                <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+              <first_editor relative-caret-position="255">
+                <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -26,13 +30,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/articles/threejs/orthographic-camera.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="192">
-                <caret line="36" column="47" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="47" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/app/articles/articles.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="118" column="34" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -75,8 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/home/home.js" />
-        <option value="$PROJECT_DIR$/src/code-editor/code-editor.html" />
         <option value="$PROJECT_DIR$/styles/tools/code-gen.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles/tools/webgl-component.css" />
@@ -102,7 +101,6 @@
         <option value="$PROJECT_DIR$/articles/binding/binding-expressions.md" />
         <option value="$PROJECT_DIR$/articles/practices/factory-pattern.md" />
         <option value="$PROJECT_DIR$/articles/practices/graphics-performance.md" />
-        <option value="$PROJECT_DIR$/articles/practices/graphics-terms.md" />
         <option value="$PROJECT_DIR$/articles/practices/review-checklist.md" />
         <option value="$PROJECT_DIR$/articles/technologies/keep-eye-on.md" />
         <option value="$PROJECT_DIR$/articles/practices/convention-over-code.md" />
@@ -123,9 +121,12 @@
         <option value="$PROJECT_DIR$/articles/threejs/setup.md" />
         <option value="$PROJECT_DIR$/src/code-editor/code-editor.js" />
         <option value="$PROJECT_DIR$/articles/threejs/orthographic-camera.md" />
-        <option value="$PROJECT_DIR$/app/articles/articles.json" />
         <option value="$PROJECT_DIR$/articles/binding/introduction.md" />
         <option value="$PROJECT_DIR$/articles/threejs/2d-shapes.md" />
+        <option value="$PROJECT_DIR$/articles/threejs/todo.txt" />
+        <option value="$PROJECT_DIR$/articles/practices/graphics-terms.md" />
+        <option value="$PROJECT_DIR$/app/articles/articles.json" />
+        <option value="$PROJECT_DIR$/articles/math/basics.md" />
       </list>
     </option>
   </component>
@@ -169,13 +170,7 @@
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
               <item name="articles" type="462c0819:PsiDirectoryNode" />
-              <item name="binding" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="articles" type="462c0819:PsiDirectoryNode" />
-              <item name="threejs" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -298,14 +293,8 @@
       <workItem from="1566670938383" duration="2877000" />
       <workItem from="1566798450551" duration="2979000" />
       <workItem from="1566801813953" duration="9000" />
-      <workItem from="1566810430574" duration="11457000" />
-    </task>
-    <task id="LOCAL-00057" summary="binding on path">
-      <created>1565629003432</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1565629003432</updated>
+      <workItem from="1566810430574" duration="12714000" />
+      <workItem from="1566973105882" duration="12662000" />
     </task>
     <task id="LOCAL-00058" summary="parse expressions">
       <created>1565638136522</created>
@@ -643,11 +632,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566824805938</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="added intro documentation">
+      <created>1566826260865</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1566826260865</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282094000" />
+    <option name="totallyTimeSpent" value="296013000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -673,8 +669,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.1892779" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.18708971" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.18743229" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.18818381" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -769,29 +765,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="added intro documentation" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lib/binding/providers/expression-provider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/binding/binding-providers-factory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/binding/binding-behaviour-factory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -898,16 +871,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="238">
             <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/articles/practices/graphics-terms.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="833">
-            <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
           </first_editor>
           <second_editor />
         </state>
@@ -1157,10 +1120,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/articles/articles.json">
+    <entry file="file://$PROJECT_DIR$/articles/practices/graphics-terms.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="595">
+            <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/threejs/2d-shapes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="296">
+            <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/threejs/todo.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -1174,11 +1157,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/articles/threejs/2d-shapes.md">
+    <entry file="file://$PROJECT_DIR$/app/view-base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/articles/articles.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="118" column="34" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/math/basics.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="387">
-            <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+          <first_editor relative-caret-position="255">
+            <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           </first_editor>
           <second_editor />
         </state>

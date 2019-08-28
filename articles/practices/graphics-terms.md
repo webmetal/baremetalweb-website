@@ -40,11 +40,18 @@ Here are a couple of useful terms that you should know and use during graphics p
 1. Mesh
 1. Surface
 1. Dimension
+1. Division
+
+1. Edge loops
+1. Segments
+1. Vertex Count
+1. Triangle Count
 
 ### Curves
 
 1. Bezier
 1. Cubic
+1. Spline
 
 ### Other
 
