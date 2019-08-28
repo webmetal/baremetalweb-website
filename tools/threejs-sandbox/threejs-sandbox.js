@@ -63,15 +63,21 @@ class ThreeJSSandbox extends HTMLElement {
     }
 
     run() {
-        const scene = this.setup.scene;
-        while(scene.children.length > 0){
-            scene.remove(scene.children[0]);
+        try{
+            const scene = this.setup.scene;
+            while(scene.children.length > 0){
+                scene.remove(scene.children[0]);
+            }
+
+            const code = this.codeJS;
+            this.codeJS = code;
+
+            this.fn(this.setup.scene, this.setup.camera, this.setup.renderer);
         }
-
-        const code = this.codeJS;
-        this.codeJS = code;
-
-        this.fn(this.setup.scene, this.setup.camera, this.setup.renderer);
+        catch(error) {
+            console.error(error);
+            alert("see console for errors");
+        }
     }
 }
 
