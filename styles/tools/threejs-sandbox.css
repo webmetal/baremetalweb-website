@@ -1,0 +1,28 @@
+threejs-sandbox {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+threejs-sandbox .toolbar {
+    max-height: 48px;
+}
+
+threejs-sandbox .toolbar label {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+threejs-sandbox .body {
+    display: flex;
+    flex-direction: row;
+}
+
+threejs-sandbox > div {
+    flex: 1;
+}
+
+threejs-sandbox #editor {
+    position: relative;
+}

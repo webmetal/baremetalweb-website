@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="686b1fa5-a3f7-4d4b-8594-9d00e6085551" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/styles/tools/threejs-sandbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/threejs-sandbox/threejs-sandbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/threejs-sandbox/threejs-sandbox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles/math/basics.md" beforeDir="false" afterPath="$PROJECT_DIR$/articles/math/basics.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles/technologies/keep-eye-on.md" beforeDir="false" afterPath="$PROJECT_DIR$/articles/technologies/keep-eye-on.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view-md/view-md.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view-md/view-md.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tools/tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/tools/tools.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,44 +16,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view-md/view-md.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="146" column="20" lean-forward="true" selection-start-line="146" selection-start-column="20" selection-end-line="146" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/articles/math/basics.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="85">
-                <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/articles/technologies/keep-eye-on.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="136">
-                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/tools/threejs-sandbox/threejs-sandbox.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#87#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/articles/articles.json">
+        <entry file="file://$PROJECT_DIR$/tools/threejs-sandbox/threejs-sandbox.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="118" column="34" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
+            <state relative-caret-position="119">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/tools/threejs-sandbox.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -95,10 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/styles/tools/code-gen.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/styles/tools/webgl-component.css" />
-        <option value="$PROJECT_DIR$/styles/group.css" />
         <option value="$PROJECT_DIR$/styles/styles.css" />
         <option value="$PROJECT_DIR$/styles/views/tools.css" />
         <option value="$PROJECT_DIR$/src/lib/binding/providers/list-provider.js" />
@@ -106,8 +91,6 @@
         <option value="$PROJECT_DIR$/src/lib/binding/behaviours/base-behaviour.js" />
         <option value="$PROJECT_DIR$/src/lib/binding/binding-behaviour-factory.js" />
         <option value="$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js" />
-        <option value="$PROJECT_DIR$/app/tools/tools.html" />
-        <option value="$PROJECT_DIR$/styles/lib.css" />
         <option value="$PROJECT_DIR$/styles/views/view.css" />
         <option value="$PROJECT_DIR$/src/lib/binding/behaviours/menu-behaviour.js" />
         <option value="$PROJECT_DIR$/styles/menu.css" />
@@ -146,12 +129,18 @@
         <option value="$PROJECT_DIR$/src/view-md/view-md.js" />
         <option value="$PROJECT_DIR$/articles/math/basics.md" />
         <option value="$PROJECT_DIR$/articles/technologies/keep-eye-on.md" />
+        <option value="$PROJECT_DIR$/app/tools/tools.html" />
+        <option value="$PROJECT_DIR$/app/tools/tools.js" />
+        <option value="$PROJECT_DIR$/styles/lib.css" />
+        <option value="$PROJECT_DIR$/styles/tools/threejs-sandbox.css" />
+        <option value="$PROJECT_DIR$/tools/threejs-sandbox/threejs-sandbox.html" />
+        <option value="$PROJECT_DIR$/tools/threejs-sandbox/threejs-sandbox.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="509" />
-    <option name="width" value="1418" />
+    <option name="x" value="277" />
+    <option name="width" value="1650" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1PJPGG66HLbzKNAFgXzRRljtnVP" />
@@ -178,13 +167,7 @@
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
               <item name="articles" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="articles" type="462c0819:PsiDirectoryNode" />
-              <item name="technologies" type="462c0819:PsiDirectoryNode" />
+              <item name="threejs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
@@ -194,8 +177,30 @@
             <path>
               <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="view-md" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="threejs-sandbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baremetalweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baremetalweb" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="webgl-component" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,14 +324,7 @@
       <workItem from="1566798450551" duration="2979000" />
       <workItem from="1566801813953" duration="9000" />
       <workItem from="1566810430574" duration="12714000" />
-      <workItem from="1566973105882" duration="16593000" />
-    </task>
-    <task id="LOCAL-00060" summary="updated comments">
-      <created>1565638823410</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1565638823410</updated>
+      <workItem from="1566973105882" duration="20081000" />
     </task>
     <task id="LOCAL-00061" summary="performance test">
       <created>1565639494586</created>
@@ -664,11 +662,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567003674609</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="added link md parsing">
+      <created>1567007509198</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1567007509198</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299944000" />
+    <option name="totallyTimeSpent" value="303432000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -680,10 +685,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="509" y="0" width="1418" height="1047" extended-state="0" />
+    <frame x="277" y="0" width="1650" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21884058" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2617866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -762,7 +767,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="parse expressions" />
     <MESSAGE value="added multi function for expressions support" />
     <MESSAGE value="updated comments" />
     <MESSAGE value="performance test" />
@@ -787,40 +791,10 @@
     <MESSAGE value="navigation changes" />
     <MESSAGE value="add threejs documentation" />
     <MESSAGE value="added intro documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="added intro documentation" />
+    <MESSAGE value="added link md parsing" />
+    <option name="LAST_COMMIT_MESSAGE" value="added link md parsing" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lib/binding/binding-dom-parser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/binding/behaviours/base-behaviour.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tools/tools.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/lib.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/chevron_left.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/menu.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -979,27 +953,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/webgl-component/webgl-component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/code-gen/code-gen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="69" selection-start-line="64" selection-end-line="69" />
-          <folding>
-            <element signature="e#0#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/webgl-component/webgl-component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="e#0#87#0" expanded="true" />
           </folding>
@@ -1013,13 +970,6 @@
             <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tools/tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -1155,16 +1105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/articles/threejs/orthographic-camera.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="192">
-            <caret line="36" column="47" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="47" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view-base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1205,6 +1145,78 @@
             <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tools/tools.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tools/tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" lean-forward="true" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/lib.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles/threejs/orthographic-camera.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="192">
+            <caret line="36" column="47" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="47" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/webgl-component/webgl-component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/tools/threejs-sandbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/threejs-sandbox/threejs-sandbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/webgl-component/webgl-component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/threejs-sandbox/threejs-sandbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#87#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
