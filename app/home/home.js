@@ -1,6 +1,8 @@
 import {ViewBase} from "./../view-base.js";
 import {Process, ProcessAction, ProcessSetVariable, ProcessCondition} from "./../../src/lib/process/process.js";
 
+import "./../../src/monaco-editor/monaco-editor.js";
+
 export default class Home extends ViewBase {
     connectedCallback() {
         super.connectedCallback();
