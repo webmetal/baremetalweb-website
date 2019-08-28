@@ -3,6 +3,8 @@
 There are some basic math that you will need when working with graphics.
 This document describes some of the basics you need as a quick reference.
 
+[Basic geometry](https://www.khanacademy.org/math/basic-geo)
+
 ## Degrees and Radian
 
 ### Degree to radian

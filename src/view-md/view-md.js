@@ -44,7 +44,11 @@ export class ViewMD extends HTMLElement {
     }
 
     async _process() {
-        const line = this.array[this.index];
+        let line = this.array[this.index];
+
+        if (line.indexOf("[") != -1) {
+            line = await this._processLink();
+        }
 
         if (line[0] == "#") {
             await this._processHeader();
@@ -60,7 +64,12 @@ export class ViewMD extends HTMLElement {
         }
         else {
             const div = document.createElement("div");
-            div.innerText = line.trim();
+            if (line[0] == "<") {
+                div.innerHTML = line;
+            }
+            else {
+                div.innerText = line.trim();
+            }
             this.fragment.appendChild(div);
         }
 
@@ -119,6 +128,23 @@ export class ViewMD extends HTMLElement {
         div.classList.add("code-container");
         div.style.height = `${lineCount * 14}px`;
         this.fragment.appendChild(div);
+    }
+
+    async _processLink() {
+        let line = this.array[this.index];
+        const startIndex = line.indexOf("[");
+        const endIndex = line.indexOf(")");
+
+        const str = line.substr(startIndex + 1, endIndex - startIndex);
+        const parts = str.split("]");
+        const caption = parts[0];
+        const url = parts[1].substr(1, parts[1].length - 2);
+        const result = `<a href="${url}">${caption}</a>`;
+
+        line = line.split(`[${str}`).join(result);
+        this.array[this.index];
+
+        return line;
     }
 }
 
