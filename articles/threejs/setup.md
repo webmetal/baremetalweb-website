@@ -17,7 +17,7 @@ These are the different parts you need to get your scene started.
 function createScene(parentElement) {
     return new Promise(resolve => {
         const scene = new THREE.Scene();
-        const renderer = new THREE.WebGLRenderer();
+        const renderer = new THREE.WebGLRenderer({antialias: true});
         parentElement.appendChild(renderer.domElement);
 
         setTimeout(() => {

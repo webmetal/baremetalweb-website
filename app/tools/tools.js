@@ -10,6 +10,8 @@ export default class Tools extends ViewBase {
     }
 
     handleMenuClick(event) {
+        if (event.target.nodeName != "LI") return;
+
         const tool = event.target.dataset.tool;
 
         if (tool == "home") return this.toolsWindow.innerHTML = "";

@@ -1,16 +1,31 @@
 import {enableEvents, disableEventsRecursive} from "./../../src/mixins/event-mixin.js";
+import {createScene, initOrthographic, initPerspective} from "./three-helper.js";
+
 import "./../../src/code-editor/code-editor.js";
 
 class ThreeJSSandbox extends HTMLElement {
+    get editor() {
+        return this.getProperty("editor", () => this.querySelector("code-editor"));
+    }
+
+    set editor(newValue) {
+        this.setProperty("editor", newValue);
+    }
+
     get codeJS() {
-        return this.getProperty("codeJS", () => "");
+        return this.editor.value;
     }
 
     set codeJS(newValue) {
-        this.setProperty("codeJS", newValue);
+        this.editor.value = newValue;
 
         if (newValue) {
-            this.fn = new Function("scene", "camera", "renderer", newValue);
+            try {
+                this.fn = new Function("scene", "camera", "renderer", newValue);
+            }
+            catch(error) {
+                alert(error);
+            }
         }
     }
 
@@ -29,20 +44,34 @@ class ThreeJSSandbox extends HTMLElement {
         await binding.bind(this, this);
 
         setTimeout(() => {
-            this.init();
+            this.init().catch(error => alert(error));
         }, 16);
     }
 
     disconnectedCallback() {
         disableEventsRecursive(this);
+        this.setup.scene = null;
+        this.setup.camera = null;
+        this.setup.rename = null;
+        this.setup = null;
     }
 
-    init() {
+    async init() {
         this.codeJS = InitCode[this.camType]();
+        this.setup = await createScene(this.querySelector("#preview"));
+        this.run();
     }
 
     run() {
-        alert(this.codeJS);
+        const scene = this.setup.scene;
+        while(scene.children.length > 0){
+            scene.remove(scene.children[0]);
+        }
+
+        const code = this.codeJS;
+        this.codeJS = code;
+
+        this.fn(this.setup.scene, this.setup.camera, this.setup.renderer);
     }
 }
 
@@ -55,15 +84,5 @@ class InitCode {
         return initPerspective;
     }
 }
-
-const initOrthographic = `console.log(camera);
-console.log(scene);
-console.log(renderer);
-`;
-
-const initPerspective = `console.log(camera);
-console.log(scene);
-console.log(renderer);
-`;
 
 customElements.define("threejs-sandbox", ThreeJSSandbox);
