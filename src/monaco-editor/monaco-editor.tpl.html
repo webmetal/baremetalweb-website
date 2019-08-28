@@ -15,6 +15,13 @@
                 language: 'javascript'
             });
         });
+
+        function receiveMessage(event)
+        {
+            console.log(event.data);
+        }
+
+        window.addEventListener("message", receiveMessage, false);
     </script>
 </body>
 </html>
