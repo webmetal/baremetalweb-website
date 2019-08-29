@@ -68,3 +68,29 @@ function moveOn(vector, length) {
     }
 }
 ```
+
+### Rotate vector
+
+This one has one sticking you need to take note of.
+When using trig functions you may get a value that is close to zero but does not diplay as zer.
+We thus clean up the result of the trig functions by rounding the value.
+The  "* 100 / 100" code is just to enable floating points.
+If you want more precision values you don't need to do the round but can cause confusion when eyeballing the data.
+
+```js
+/**
+ * Rotate a vector around the zero axis by a given angle in degrees
+ * @param v {Vector2}: Vector to rotate
+ * @param angle {number} Degrees to rotate it by
+ * @returns {{x: number, y: number}}
+ */
+rotateV(v, angle) {
+    const a = angle * (Math.PI / 180)
+    const x = (v.x * Math.cos(a)) - (v.y * Math.sin(a));
+    const y = (v.y* Math.cos(a)) + (v.x * Math.sin(a));
+    return {
+        x: Math.round(x * 100) / 100,
+        y: Math.round(y * 100) / 100
+    }
+}
+```

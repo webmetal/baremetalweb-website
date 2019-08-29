@@ -38,5 +38,27 @@ export default class Home extends ViewBase {
         this.data = {
 
         }
+        
+        let result = this.rotateV({x: -100, y:0}, 45);
+        console.log(result);
+
+        result = this.rotateV({x: 100, y:0}, 45);
+        console.log(result);
+    }
+
+    /**
+     * Rotate a vector around the zero axis by a given angle in degrees
+     * @param v {Vector2}: Vector to rotate
+     * @param angle {number} Degrees to rotate it by
+     * @returns {{x: number, y: number}}
+     */
+    rotateV(v, angle) {
+        const a = angle * (Math.PI / 180)
+        const x = (v.x * Math.cos(a)) - (v.y * Math.sin(a));
+        const y = (v.y* Math.cos(a)) + (v.x * Math.sin(a));
+        return {
+            x: Math.round(x * 100) / 100,
+            y: Math.round(y * 100) / 100
+        }
     }
 }
